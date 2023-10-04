@@ -1,0 +1,1604 @@
+
+<!doctype html>
+<html lang="en" data-layout="vertical" data-layout-style="default" data-layout-position="fixed" data-topbar="light" data-sidebar="dark" data-sidebar-size="sm-hover" data-layout-width="fluid">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Admin & Dashboard </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/faviconico">
+
+    <!-- swiper slider css -->
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Layout config Js -->
+    <script src="assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <!-- custom Css-->
+    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+    <div class="layout-width">
+        <div class="navbar-header">
+            <div class="d-flex">
+                <!-- LOGO -->
+                <div class="navbar-brand-box horizontal-logo">
+                    <a href="index.html" class="logo logo-dark">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.svg" alt=""height="33">
+                        </span>
+                    </a>
+
+                    <a href="index.html" class="logo logo-light">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.svg" alt=""height="33">
+                        </span>
+                    </a>
+                </div>
+
+                <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger" id="topnav-hamburger-icon">
+                    <span class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+
+                <!-- App Search-->
+                <form class="app-search d-none d-md-block">
+                    <div class="position-relative">
+                        <input type="text" class="form-control" placeholder="Search..." autocomplete="off" id="search-options" value="">
+                        <span class="mdi mdi-magnify search-widget-icon"></span>
+                        <span class="mdi mdi-close-circle search-widget-icon search-widget-icon-close d-none" id="search-close-options"></span>
+                    </div>
+                    <div class="dropdown-menu dropdown-menu-lg" id="search-dropdown">
+                        <div data-simplebar style="max-height: 320px;">
+                            <!-- item-->
+                            <div class="dropdown-header">
+                                <h6 class="text-overflow text-muted mb-0 text-uppercase">Recent Searches</h6>
+                            </div>
+
+                            <div class="dropdown-item bg-transparent text-wrap">
+                                <a href="index-2.html" class="btn btn-soft-secondary btn-sm rounded-pill">how to setup <i class="mdi mdi-magnify ms-1"></i></a>
+                                <a href="index-2.html" class="btn btn-soft-secondary btn-sm rounded-pill">buttons <i class="mdi mdi-magnify ms-1"></i></a>
+                            </div>
+                            <!-- item-->
+                            <div class="dropdown-header mt-2">
+                                <h6 class="text-overflow text-muted mb-1 text-uppercase">Pages</h6>
+                            </div>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="ri-bubble-chart-line align-middle fs-18 text-muted me-2"></i>
+                                <span>Analytics Dashboard</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="ri-lifebuoy-line align-middle fs-18 text-muted me-2"></i>
+                                <span>Help Center</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="ri-user-settings-line align-middle fs-18 text-muted me-2"></i>
+                                <span>My account settings</span>
+                            </a>
+
+                            <!-- item-->
+                            <div class="dropdown-header mt-2">
+                                <h6 class="text-overflow text-muted mb-2 text-uppercase">Members</h6>
+                            </div>
+
+                            <div class="notification-list">
+                                <!-- item -->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
+                                    <div class="d-flex">
+                                        <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                        <div class="flex-grow-1">
+                                            <h6 class="m-0">Angela Bernier</h6>
+                                            <span class="fs-11 mb-0 text-muted">Manager</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <!-- item -->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
+                                    <div class="d-flex">
+                                        <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                        <div class="flex-grow-1">
+                                            <h6 class="m-0">David Grasso</h6>
+                                            <span class="fs-11 mb-0 text-muted">Web Designer</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <!-- item -->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
+                                    <div class="d-flex">
+                                        <img src="assets/images/users/avatar-5.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                        <div class="flex-grow-1">
+                                            <h6 class="m-0">Mike Bunch</h6>
+                                            <span class="fs-11 mb-0 text-muted">React Developer</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="text-center pt-3 pb-1">
+                            <a href="pages-search-results.html" class="btn btn-primary btn-sm">View All Results <i class="ri-arrow-right-line ms-1"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="d-flex align-items-center">
+
+                <div class="ms-1 header-item d-none d-sm-flex">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" data-toggle="fullscreen">
+                        <i class='bx bx-fullscreen fs-22'></i>
+                    </button>
+                </div>
+
+                <div class="ms-1 header-item d-none d-sm-flex">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle light-dark-mode">
+                        <i class='bx bx-moon fs-22'></i>
+                    </button>
+                </div>
+                <div class="dropdown topbar-head-dropdown ms-1 header-item" id="notificationDropdown">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+                        <i class='bx bx-message fs-22'></i>
+                        <span class="position-absolute topbar-badge fs-10 translate-middle badge rounded-pill bg-danger">3<span class="visually-hidden">unread messages</span></span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+
+                        <div class="dropdown-head bg-primary bg-pattern rounded-top">
+                            <div class="p-3">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h6 class="m-0 fs-16 fw-semibold text-white"> Messages </h6>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="px-2 pt-2">
+                                <ul class="nav nav-tabs dropdown-tabs nav-tabs-custom" data-dropdown-tabs="true" id="notificationItemsTab" role="tablist">
+                                    <li class="nav-item waves-effect waves-light">
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#all-noti-tab" role="tab" aria-selected="true">
+                                            All (4)
+                                        </a>
+                                    </li>
+                                    <li class="nav-item waves-effect waves-light">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#messages-tab" role="tab" aria-selected="false">
+                                            Messages
+                                        </a>
+                                    </li>
+                                    <li class="nav-item waves-effect waves-light">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#alerts-tab" role="tab" aria-selected="false">
+                                            Alerts
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-content position-relative" id="notificationItemsTabContent">
+                            <div class="tab-pane fade show active py-2 ps-2" id="all-noti-tab" role="tabpanel">
+                                <div data-simplebar style="max-height: 300px;" class="pe-2">
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-info-subtle text-info rounded-circle fs-16">
+                                                    <i class="bx bx-badge-check"></i>
+                                                </span>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-2 lh-base">Your <b>Elite</b> author Graphic
+                                                        Optimization <span class="text-secondary">reward</span> is
+                                                        ready!
+                                                    </h6>
+                                                </a>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> Just 30 sec ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check01">
+                                                    <label class="form-check-label" for="all-notification-check01"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                        graph 🔔.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 48 min ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check02">
+                                                    <label class="form-check-label" for="all-notification-check02"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
+                                                    <i class='bx bx-message-square-dots'></i>
+                                                </span>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-2 fs-13 lh-base">You have received <b class="text-success">20</b> new messages in the conversation
+                                                    </h6>
+                                                </a>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check03">
+                                                    <label class="form-check-label" for="all-notification-check03"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Maureen Gibson</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">We talked about a project on linkedin.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 4 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check04">
+                                                    <label class="form-check-label" for="all-notification-check04"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="my-3 text-center view-all">
+                                        <button type="button" class="btn btn-soft-success waves-effect waves-light">View
+                                            All Notifications <i class="ri-arrow-right-line align-middle"></i></button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade py-2 ps-2" id="messages-tab" role="tabpanel" aria-labelledby="messages-tab">
+                                <div data-simplebar style="max-height: 300px;" class="pe-2">
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">James Lemire</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">We talked about a project on linkedin.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 30 min ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check01">
+                                                    <label class="form-check-label" for="messages-notification-check01"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                        graph 🔔.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check02">
+                                                    <label class="form-check-label" for="messages-notification-check02"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Kenneth Brown</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">Mentionned you in his comment on 📃 invoice #12501.
+                                                    </p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 10 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check03">
+                                                    <label class="form-check-label" for="messages-notification-check03"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Maureen Gibson</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">We talked about a project on linkedin.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 3 days ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check04">
+                                                    <label class="form-check-label" for="messages-notification-check04"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="my-3 text-center view-all">
+                                        <button type="button" class="btn btn-soft-success waves-effect waves-light">View
+                                            All Messages <i class="ri-arrow-right-line align-middle"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade p-4" id="alerts-tab" role="tabpanel" aria-labelledby="alerts-tab"></div>
+
+                            <div class="notification-actions" id="notification-actions">
+                                <div class="d-flex text-muted justify-content-center">
+                                    Select <div id="select-content" class="text-body fw-semibold px-1">0</div> Result <button type="button" class="btn btn-link link-danger p-0 ms-3" data-bs-toggle="modal" data-bs-target="#removeNotificationModal">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown topbar-head-dropdown ms-1 header-item" id="notificationDropdown">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+                        <i class='bx bx-bell fs-22'></i>
+                        <span class="position-absolute topbar-badge fs-10 translate-middle badge rounded-pill bg-danger">3<span class="visually-hidden">unread messages</span></span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+
+                        <div class="dropdown-head bg-primary bg-pattern rounded-top">
+                            <div class="p-3">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h6 class="m-0 fs-16 fw-semibold text-white"> Notifications </h6>
+                                    </div>
+                                    <div class="col-auto dropdown-tabs">
+                                        <span class="badge bg-light-subtle text-body fs-13"> 4 New</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="px-2 pt-2">
+                                <ul class="nav nav-tabs dropdown-tabs nav-tabs-custom" data-dropdown-tabs="true" id="notificationItemsTab" role="tablist">
+                                    <li class="nav-item waves-effect waves-light">
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#all-noti-tab" role="tab" aria-selected="true">
+                                            All (4)
+                                        </a>
+                                    </li>
+                                    <li class="nav-item waves-effect waves-light">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#messages-tab" role="tab" aria-selected="false">
+                                            Messages
+                                        </a>
+                                    </li>
+                                    <li class="nav-item waves-effect waves-light">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#alerts-tab" role="tab" aria-selected="false">
+                                            Alerts
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-content position-relative" id="notificationItemsTabContent">
+                            <div class="tab-pane fade show active py-2 ps-2" id="all-noti-tab" role="tabpanel">
+                                <div data-simplebar style="max-height: 300px;" class="pe-2">
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-info-subtle text-info rounded-circle fs-16">
+                                                    <i class="bx bx-badge-check"></i>
+                                                </span>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-2 lh-base">Your <b>Elite</b> author Graphic
+                                                        Optimization <span class="text-secondary">reward</span> is
+                                                        ready!
+                                                    </h6>
+                                                </a>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> Just 30 sec ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check01">
+                                                    <label class="form-check-label" for="all-notification-check01"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                        graph 🔔.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 48 min ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check02">
+                                                    <label class="form-check-label" for="all-notification-check02"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
+                                                    <i class='bx bx-message-square-dots'></i>
+                                                </span>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-2 fs-13 lh-base">You have received <b class="text-success">20</b> new messages in the conversation
+                                                    </h6>
+                                                </a>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check03">
+                                                    <label class="form-check-label" for="all-notification-check03"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Maureen Gibson</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">We talked about a project on linkedin.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 4 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="all-notification-check04">
+                                                    <label class="form-check-label" for="all-notification-check04"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="my-3 text-center view-all">
+                                        <button type="button" class="btn btn-soft-success waves-effect waves-light">View
+                                            All Notifications <i class="ri-arrow-right-line align-middle"></i></button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade py-2 ps-2" id="messages-tab" role="tabpanel" aria-labelledby="messages-tab">
+                                <div data-simplebar style="max-height: 300px;" class="pe-2">
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">James Lemire</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">We talked about a project on linkedin.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 30 min ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check01">
+                                                    <label class="form-check-label" for="messages-notification-check01"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                        graph 🔔.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check02">
+                                                    <label class="form-check-label" for="messages-notification-check02"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Kenneth Brown</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">Mentionned you in his comment on 📃 invoice #12501.
+                                                    </p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 10 hrs ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check03">
+                                                    <label class="form-check-label" for="messages-notification-check03"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-reset notification-item d-block dropdown-item">
+                                        <div class="d-flex">
+                                            <img src="assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="flex-grow-1">
+                                                <a href="#!" class="stretched-link">
+                                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">Maureen Gibson</h6>
+                                                </a>
+                                                <div class="fs-13 text-muted">
+                                                    <p class="mb-1">We talked about a project on linkedin.</p>
+                                                </div>
+                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                    <span><i class="mdi mdi-clock-outline"></i> 3 days ago</span>
+                                                </p>
+                                            </div>
+                                            <div class="px-2 fs-15">
+                                                <div class="form-check notification-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="messages-notification-check04">
+                                                    <label class="form-check-label" for="messages-notification-check04"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="my-3 text-center view-all">
+                                        <button type="button" class="btn btn-soft-success waves-effect waves-light">View
+                                            All Messages <i class="ri-arrow-right-line align-middle"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade p-4" id="alerts-tab" role="tabpanel" aria-labelledby="alerts-tab"></div>
+
+                            <div class="notification-actions" id="notification-actions">
+                                <div class="d-flex text-muted justify-content-center">
+                                    Select <div id="select-content" class="text-body fw-semibold px-1">0</div> Result <button type="button" class="btn btn-link link-danger p-0 ms-3" data-bs-toggle="modal" data-bs-target="#removeNotificationModal">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown ms-sm-3 header-item topbar-user">
+                    <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="d-flex align-items-center">
+                            <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar">
+                            <span class="text-start ms-xl-2">
+                                 <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Sandip Sah</span>
+                                <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">BO Content Manager</span> 
+                               
+                                
+                            </span>
+                        </span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <!-- item-->
+                        <h6 class="dropdown-header">Welcome Sandip Sah!</h6>
+                        <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
+                        <a class="dropdown-item" href="#"><i class="mdi mdi-message-text-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Messages</span></a>
+                        <a class="dropdown-item" href="#"><i class="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Taskboard</span></a>
+                        <a class="dropdown-item" href="#"><i class="mdi mdi-lifebuoy text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Help</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="mdi mdi-wallet text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Balance : <b>$5971.67</b></span></a>
+                        <a class="dropdown-item" href="#"><span class="badge bg-success-subtle text-success mt-1 float-end">New</span><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a>
+                        <a class="dropdown-item" href="#"><i class="mdi mdi-lock text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Lock screen</span></a>
+                        <a class="dropdown-item" href="#"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- removeNotificationModal -->
+<div id="removeNotificationModal" class="modal fade zoomIn" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="NotificationModalbtn-close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mt-2 text-center">
+                    <lord-icon src="../../../../external#?link=https://cdn.lordicon.com/gsqxdxog.json" trigger="loop" colors="primary:#f7b84b,secondary:#f06548" style="width:100px;height:100px"></lord-icon>
+                    <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
+                        <h4>Are you sure ?</h4>
+                        <p class="text-muted mx-4 mb-0">Are you sure you want to remove this Notification ?</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
+                    <button type="button" class="btn w-sm btn-light" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn w-sm btn-danger" id="delete-notification">Yes, Delete It!</button>
+                </div>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+        <!-- ========== App Menu ========== -->
+        <div class="app-menu navbar-menu">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <!-- Dark Logo-->
+                <a href="index.html" class="logo logo-dark">
+                    <span class="logo-sm">
+                        <img src="assets/images/logo-sm.png" alt="" height="22">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="assets/images/logo-light.svg" alt="" height="33">
+                    </span>
+                </a>
+                <!-- Light Logo-->
+                <a href="index.html" class="logo logo-light">
+                    <span class="logo-sm">
+                        <img src="assets/images/logo-sm.png" alt="" height="22">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="assets/images/logo-light.svg" alt="" height="33">
+                    </span>
+                </a>
+                <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
+                    <i class="ri-record-circle-line"></i>
+                </button>
+            </div>
+
+            <div id="scrollbar">
+                <div class="container-fluid">
+
+                    <div id="two-column-menu">
+                    </div>
+                    <ul class="navbar-nav" id="navbar-nav">
+                        <li class="menu-title"><span data-key="t-menu"></span></li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarDashboards"  role="button" aria-expanded="false" aria-controls="sidebarDashboards">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_1080_3056)">
+                                      <path d="M19.5 8.65999C19.4994 8.65953 19.4989 8.65892 19.4985 8.65846L11.34 0.500337C10.9923 0.152436 10.5299 -0.0390625 10.0382 -0.0390625C9.54636 -0.0390625 9.08402 0.152436 8.73612 0.500337L0.581961 8.65434C0.579215 8.65709 0.576315 8.65999 0.573721 8.66274C-0.140391 9.38097 -0.13917 10.5463 0.577231 11.2627C0.904533 11.5901 1.33666 11.7797 1.79885 11.7996C1.81777 11.8015 1.83669 11.8024 1.85577 11.8024H2.18078V17.8061C2.18078 18.9943 3.14758 19.961 4.33578 19.961H7.52762C7.85126 19.961 8.11356 19.6985 8.11356 19.375V14.668C8.11356 14.1259 8.55469 13.6849 9.09684 13.6849H10.9795C11.5216 13.6849 11.9626 14.1259 11.9626 14.668V19.375C11.9626 19.6985 12.2249 19.961 12.5485 19.961H15.7404C16.9287 19.961 17.8954 18.9943 17.8954 17.8061V11.8024H18.1969C18.6885 11.8024 19.1509 11.6109 19.4989 11.2628C20.2161 10.5454 20.2164 9.37792 19.5 8.65999ZM18.6702 10.4343C18.5437 10.5608 18.3756 10.6305 18.1969 10.6305H17.3094C16.9858 10.6305 16.7235 10.8928 16.7235 11.2165V17.8061C16.7235 18.3481 16.2825 18.7891 15.7404 18.7891H13.1345V14.668C13.1345 13.4798 12.1678 12.513 10.9795 12.513H9.09684C7.90848 12.513 6.94168 13.4798 6.94168 14.668V18.7891H4.33578C3.79379 18.7891 3.35266 18.3481 3.35266 17.8061V11.2165C3.35266 10.8928 3.09036 10.6305 2.76672 10.6305H1.89452C1.88537 10.6299 1.87637 10.6294 1.86706 10.6293C1.6925 10.6262 1.52877 10.557 1.40609 10.4341C1.14516 10.1732 1.14516 9.74856 1.40609 9.48748C1.40624 9.48748 1.40624 9.48732 1.4064 9.48717L1.40685 9.48671L9.56498 1.32889C9.69132 1.2024 9.85932 1.13281 10.0382 1.13281C10.2168 1.13281 10.3848 1.2024 10.5113 1.32889L18.6676 9.48503C18.6688 9.48626 18.6702 9.48748 18.6714 9.4887C18.931 9.75008 18.9305 10.1738 18.6702 10.4343Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1080_3056">
+                                        <rect width="20" height="20" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg> <span data-key="t-dashboards">Dashboard</span>
+                            </a>
+                          
+                        </li> <!-- end Dashboard Menu -->
+                       
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarApps"  role="button" aria-expanded="false" aria-controls="sidebarApps">
+                                <i class="ri-apps-2-line"></i> <span data-key="t-apps">Leads</span>
+                            </a>
+                           
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarLayouts" data-bs-toggle="collapse"  role="button" aria-expanded="false" aria-controls="sidebarLayouts">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.50749 8.95834C6.80701 8.95834 6.12227 8.75062 5.53984 8.36146C4.95742 7.97229 4.50347 7.41916 4.23541 6.77201C3.96735 6.12485 3.89722 5.41274 4.03387 4.72572C4.17053 4.03871 4.50784 3.40764 5.00315 2.91233C5.49846 2.41702 6.12953 2.07971 6.81654 1.94305C7.50356 1.8064 8.21567 1.87653 8.86282 2.14459C9.50998 2.41266 10.0631 2.8666 10.4523 3.44902C10.8414 4.03145 11.0492 4.71619 11.0492 5.41667C11.0481 6.35564 10.6746 7.25583 10.0106 7.91979C9.34665 8.58374 8.44646 8.95723 7.50749 8.95834ZM7.50749 3.125C7.05424 3.125 6.61117 3.25941 6.23431 3.51122C5.85744 3.76303 5.56371 4.12094 5.39026 4.53969C5.21681 4.95843 5.17143 5.41921 5.25985 5.86375C5.34828 6.30829 5.56654 6.71663 5.88703 7.03712C6.20753 7.35762 6.61587 7.57588 7.06041 7.6643C7.50495 7.75273 7.96572 7.70734 8.38447 7.53389C8.80322 7.36044 9.16113 7.06671 9.41294 6.68985C9.66475 6.31299 9.79915 5.86992 9.79915 5.41667C9.79871 4.80902 9.55713 4.22638 9.12745 3.7967C8.69778 3.36703 8.11514 3.12544 7.50749 3.125ZM10.8333 18.125H4.16665C2.14999 18.125 1.03915 17.0208 1.03915 15.0158C1.03915 12.7975 2.29415 10.2083 5.83082 10.2083H9.16415C12.7008 10.2083 13.9558 12.7975 13.9558 15.0158C13.9583 17.0208 12.8475 18.125 10.8333 18.125ZM5.83332 11.4583C5.35748 11.4215 4.87931 11.4884 4.43184 11.6544C3.98437 11.8204 3.57826 12.0816 3.24153 12.4198C2.90481 12.758 2.6455 13.1653 2.4815 13.6135C2.3175 14.0617 2.25273 14.5402 2.29165 15.0158C2.29165 16.3192 2.85332 16.875 4.16915 16.875H10.8333C12.1492 16.875 12.7108 16.3192 12.7108 15.0158C12.7498 14.5399 12.685 14.0612 12.5208 13.6128C12.3567 13.1644 12.0971 12.757 11.7601 12.4188C11.4231 12.0805 11.0167 11.8194 10.5689 11.6536C10.1211 11.4878 9.6427 11.4212 9.16665 11.4583H5.83332ZM13.8 9.325C13.0526 9.32757 12.3342 9.03602 11.8 8.51333C11.6987 8.39501 11.6452 8.24312 11.6501 8.08744C11.6549 7.93175 11.7177 7.78349 11.8262 7.67169C11.9346 7.5599 12.0809 7.49263 12.2364 7.48307C12.3919 7.4735 12.5453 7.52234 12.6667 7.62C12.9687 7.9145 13.3748 8.07799 13.7967 8.075C14.0129 8.07734 14.2274 8.03648 14.4277 7.95481C14.6279 7.87314 14.8098 7.7523 14.9627 7.59939C15.1156 7.44648 15.2365 7.26457 15.3181 7.06433C15.3998 6.8641 15.4407 6.64957 15.4383 6.43333C15.4377 5.99814 15.2645 5.58096 14.9568 5.27323C14.649 4.9655 14.2318 4.79233 13.7967 4.79167C13.5575 4.78786 13.3209 4.84129 13.1067 4.9475C12.9589 5.02276 12.7873 5.03624 12.6296 4.98498C12.4719 4.93372 12.3411 4.82192 12.2658 4.67417C12.1906 4.52642 12.1771 4.35483 12.2283 4.19714C12.2796 4.03946 12.3914 3.90859 12.5392 3.83333C12.93 3.63659 13.3624 3.53656 13.8 3.54167C14.5669 3.54167 15.3024 3.84633 15.8447 4.38862C16.387 4.93091 16.6917 5.66642 16.6917 6.43333C16.6917 7.20025 16.387 7.93576 15.8447 8.47805C15.3024 9.02034 14.5669 9.325 13.8 9.325ZM16.3833 16.4583H15.8167C15.6509 16.4583 15.4919 16.3925 15.3747 16.2753C15.2575 16.1581 15.1917 15.9991 15.1917 15.8333C15.1917 15.6676 15.2575 15.5086 15.3747 15.3914C15.4919 15.2742 15.6509 15.2083 15.8167 15.2083H16.3833C17.3375 15.2083 17.7083 14.8417 17.7083 13.9C17.7369 13.5488 17.6889 13.1955 17.5676 12.8646C17.4463 12.5337 17.2547 12.2331 17.0059 11.9835C16.7571 11.734 16.4571 11.5413 16.1266 11.419C15.7961 11.2967 15.443 11.2476 15.0917 11.275H13.8333C13.6676 11.275 13.5086 11.2092 13.3914 11.0919C13.2742 10.9747 13.2083 10.8158 13.2083 10.65C13.2083 10.4842 13.2742 10.3253 13.3914 10.2081C13.5086 10.0908 13.6676 10.025 13.8333 10.025H15.0917C15.6089 9.99103 16.1275 10.068 16.6126 10.2509C17.0977 10.4337 17.5381 10.7181 17.9043 11.0851C18.2704 11.4521 18.5539 11.8931 18.7357 12.3786C18.9175 12.864 18.9934 13.3828 18.9583 13.9C18.9939 14.2462 18.9517 14.596 18.8346 14.9237C18.7176 15.2514 18.5287 15.5488 18.2818 15.7941C18.0349 16.0394 17.7363 16.2264 17.4078 16.3413C17.0793 16.4562 16.7293 16.4962 16.3833 16.4583Z" fill="white"/>
+                                  </svg> <span data-key="t-layouts">Clients</span> 
+                            </a>
+                           <div class="collapse menu-dropdown" id="sidebarLayouts">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a href="#" target="_blank" class="nav-link" data-key="t-horizontal">Horizontal</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="layouts-detached#" target="_blank" class="nav-link" data-key="t-detached">Detached</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="layouts-two-column#" target="_blank" class="nav-link" data-key="t-two-column">Two Column</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="layouts-vertical-hovered#" target="_blank" class="nav-link" data-key="t-hovered">Hovered</a>
+                                    </li>
+                                </ul>
+                            </div> 
+                        
+                        </li> <!-- end Dashboard Menu -->
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarUI" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarUI">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                    <g clip-path="url(#clip0_1176_834)">
+                                      <path d="M5.78287 17.3198C4.6994 17.9419 3.47812 18.165 2.75493 18.2451C2.83499 17.5219 3.05812 16.3006 3.67958 15.2165C3.84233 14.9336 3.74455 14.5727 3.46171 14.4099C3.17624 14.2465 2.81727 14.3456 2.65518 14.6285C1.54218 16.5697 1.52905 18.7865 1.52905 18.8803C1.52905 19.2065 1.79352 19.4709 2.11968 19.4709C2.21352 19.4709 4.43033 19.4578 6.37152 18.3448C6.65437 18.1821 6.75215 17.8218 6.5894 17.5383C6.42796 17.2554 6.06768 17.157 5.78287 17.3198Z" fill="white"/>
+                                      <path d="M20.284 2.14922C20.2913 1.76138 20.1449 1.39782 19.8719 1.12547C19.5996 0.853129 19.2058 0.718598 18.8501 0.715317C17.2148 0.746161 12.8034 1.21538 8.62969 4.96191C7.8855 4.6725 6.76397 4.24266 5.91281 4.35225C4.66069 4.51304 2.81072 6.21666 0.998814 8.03447C0.758626 8.27532 0.662814 8.61657 0.743532 8.94732C0.823595 9.27938 1.06641 9.53991 1.39191 9.64425L4.27284 10.5696C4.05563 10.9659 3.84169 11.3715 3.63497 11.7994C3.37509 12.3375 3.48534 12.9839 3.90928 13.4065L7.59281 17.0901C7.86319 17.3611 8.22544 17.5042 8.59097 17.5042C8.79769 17.5042 9.00638 17.4589 9.20063 17.365C9.6285 17.1583 10.0341 16.9444 10.4291 16.7278L11.3551 19.6081C11.4594 19.9336 11.72 20.1764 12.0527 20.2571C12.1295 20.2755 12.2069 20.2847 12.2843 20.2847C12.537 20.2847 12.7805 20.1856 12.9655 20.0012C14.7833 18.1893 16.487 16.34 16.6471 15.0885C16.758 14.2295 16.3268 13.1145 16.0374 12.3703C19.7833 8.19657 20.2532 3.78525 20.284 2.14922ZM2.079 8.6251C3.04041 7.66763 5.1286 5.64441 6.0631 5.52432C6.47981 5.47116 7.1341 5.66869 7.68666 5.86885C6.71081 6.8775 5.76319 8.08632 4.87988 9.52416L2.079 8.6251ZM8.68678 16.3013C8.60344 16.3419 8.49647 16.3236 8.42822 16.2553L4.74403 12.5711C4.67644 12.5035 4.65741 12.3972 4.69875 12.3126C9.28659 2.80941 16.7075 1.93791 18.8731 1.89722H18.8783C18.9564 1.89722 19.0076 1.932 19.0378 1.96219C19.0628 1.98713 19.1054 2.04225 19.1041 2.12757C19.0621 4.29319 18.1899 11.7141 8.68678 16.3013ZM15.4757 14.9376C15.3556 15.8714 13.3324 17.9603 12.3749 18.921L11.4745 16.1208C12.9137 15.2375 14.1225 14.2892 15.1312 13.3133C15.332 13.8653 15.5295 14.5182 15.4757 14.9376Z" fill="white"/>
+                                      <path d="M15.834 8.67169C16.8 7.70503 16.8 6.13266 15.834 5.166C14.8969 4.23019 13.2641 4.23019 12.3283 5.166C11.8604 5.63391 11.6025 6.25669 11.6025 6.91884C11.6025 7.581 11.8611 8.20378 12.3283 8.67169C12.7962 9.13959 13.419 9.3975 14.0812 9.3975C14.7433 9.3975 15.3654 9.13959 15.834 8.67169ZM14.9979 7.83628C14.5077 8.32716 13.6526 8.32716 13.1637 7.83628C12.9183 7.5915 12.7831 7.26534 12.7831 6.91884C12.7831 6.57235 12.9183 6.24685 13.1637 6.00141C13.4085 5.75663 13.734 5.62144 14.0805 5.62144C14.4264 5.62144 14.7525 5.75663 14.9973 6.00141C15.5039 6.50738 15.5039 7.33031 14.9979 7.83628Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1176_834">
+                                        <rect width="21" height="21" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg> <span data-key="t-base-ui">Task</span>
+                            </a>
+                            <!-- <div class="collapse menu-dropdown mega-dropdown-menu" id="sidebarUI">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <ul class="nav nav-sm flex-column">
+                                            <li class="nav-item">
+                                                <a href="ui-alerts#" class="nav-link" data-key="t-alerts">Alerts</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-badges#" class="nav-link" data-key="t-badges">Badges</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-buttons#" class="nav-link" data-key="t-buttons">Buttons</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-colors#" class="nav-link" data-key="t-colors">Colors</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-cards#" class="nav-link" data-key="t-cards">Cards</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-carousel#" class="nav-link" data-key="t-carousel">Carousel</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-dropdowns#" class="nav-link" data-key="t-dropdowns">Dropdowns</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-grid#" class="nav-link" data-key="t-grid">Grid</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ul class="nav nav-sm flex-column">
+                                            <li class="nav-item">
+                                                <a href="ui-images#" class="nav-link" data-key="t-images">Images</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-tabs#" class="nav-link" data-key="t-tabs">Tabs</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-accordions#" class="nav-link" data-key="t-accordion-collapse">Accordion & Collapse</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-modals#" class="nav-link" data-key="t-modals">Modals</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-offcanvas#" class="nav-link" data-key="t-offcanvas">Offcanvas</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-placeholders#" class="nav-link" data-key="t-placeholders">Placeholders</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-progress#" class="nav-link" data-key="t-progress">Progress</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-notifications#" class="nav-link" data-key="t-notifications">Notifications</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ul class="nav nav-sm flex-column">
+                                            <li class="nav-item">
+                                                <a href="ui-media#" class="nav-link" data-key="t-media-object">Media
+                                                    object</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-embed-video#" class="nav-link" data-key="t-embed-video">Embed
+                                                    Video</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-typography#" class="nav-link" data-key="t-typography">Typography</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-lists#" class="nav-link" data-key="t-lists">Lists</a>
+                                            </li>
+                                            <li class="nav-item">
+        										<a href="ui-links#" class="nav-link"><span data-key="t-links">Links</span> <span class="badge badge-pill bg-success" data-key="t-new">New</span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-general#" class="nav-link" data-key="t-general">General</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-ribbons#" class="nav-link" data-key="t-ribbons">Ribbons</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="ui-utilities#" class="nav-link" data-key="t-utilities">Utilities</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarAdvanceUI"  role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
+                                    <g clip-path="url(#clip0_1767_52)">
+                                      <path d="M13.5 2C15.1545 2 16.5 3.3455 16.5 5V14C16.5 15.6545 15.1545 17 13.5 17H4.5C2.8455 17 1.5 15.6545 1.5 14V5C1.5 3.3455 2.8455 2 4.5 2H13.5ZM13.5 0.5H4.5C2.0145 0.5 0 2.5145 0 5V14C0 16.4855 2.0145 18.5 4.5 18.5H13.5C15.9855 18.5 18 16.4855 18 14V5C18 2.5145 15.9855 0.5 13.5 0.5Z" fill="white"/>
+                                      <path d="M5.25 14C4.836 14 4.5 13.6648 4.5 13.25V8.75C4.5 8.336 4.836 8 5.25 8C5.664 8 6 8.336 6 8.75V13.25C6 13.6648 5.664 14 5.25 14Z" fill="white"/>
+                                      <path d="M9 14C8.586 14 8.25 13.6648 8.25 13.25V5.75C8.25 5.336 8.586 5 9 5C9.414 5 9.75 5.336 9.75 5.75V13.25C9.75 13.6648 9.414 14 9 14Z" fill="white"/>
+                                      <path d="M12.75 14C12.3353 14 12 13.6648 12 13.25V8.75C12 8.336 12.3353 8 12.75 8C13.1648 8 13.5 8.336 13.5 8.75V13.25C13.5 13.6648 13.1648 14 12.75 14Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1767_52">
+                                        <rect width="18" height="18" fill="white" transform="translate(0 0.5)"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg> <span data-key="t-advance-ui">Reports</span>
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarAdvanceUI"  role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M9.99999 15.2083C10.4602 15.2083 10.8333 14.8352 10.8333 14.375C10.8333 13.9148 10.4602 13.5417 9.99999 13.5417C9.53975 13.5417 9.16666 13.9148 9.16666 14.375C9.16666 14.8352 9.53975 15.2083 9.99999 15.2083Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99999 1.04166C14.9442 1.04166 18.9583 5.05583 18.9583 10C18.9583 14.9442 14.9442 18.9583 9.99999 18.9583C5.05582 18.9583 1.04166 14.9442 1.04166 10C1.04166 5.05583 5.05582 1.04166 9.99999 1.04166ZM9.99999 2.29166C5.74582 2.29166 2.29166 5.74583 2.29166 10C2.29166 14.2542 5.74582 17.7083 9.99999 17.7083C14.2542 17.7083 17.7083 14.2542 17.7083 10C17.7083 5.74583 14.2542 2.29166 9.99999 2.29166Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.33331 7.08333C8.33331 7.42833 8.05331 7.70833 7.70831 7.70833C7.36331 7.70833 7.08331 7.42833 7.08331 7.08333C7.08331 5.47333 8.38998 4.16666 9.99998 4.16666C11.61 4.16666 12.9166 5.47333 12.9166 7.08333C12.9166 8.42083 12.015 9.54833 10.7866 9.8925C10.7758 9.89583 10.7641 9.89833 10.7533 9.90083C10.7025 9.91166 10.6666 9.95666 10.6666 10.0092C10.6666 10.0233 10.6658 10.0375 10.665 10.0517C10.625 10.6467 10.625 11.4583 10.625 11.4583C10.625 11.8033 10.345 12.0833 9.99998 12.0833C9.65498 12.0833 9.37498 11.8033 9.37498 11.4583C9.37498 11.4583 9.37498 10.6142 9.41665 9.99666C9.42248 9.36666 9.85915 8.82333 10.475 8.68166C11.1633 8.47666 11.6666 7.83833 11.6666 7.08333C11.6666 6.16333 10.92 5.41666 9.99998 5.41666C9.07998 5.41666 8.33331 6.16333 8.33331 7.08333Z" fill="white"/>
+                                  </svg> <span data-key="t-advance-ui">Tickets</span>
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarAdvanceUI"  role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M16.875 1.25H3.125C2.09125 1.25 1.25 2.09125 1.25 3.125V16.875C1.25 17.9088 2.09125 18.75 3.125 18.75H16.875C17.9088 18.75 18.75 17.9088 18.75 16.875V3.125C18.75 2.09125 17.9088 1.25 16.875 1.25ZM16.875 2.5C17.2194 2.5 17.5 2.78062 17.5 3.125V5H10.625V2.5H16.875ZM3.125 2.5H9.375V13.75H2.5V3.125C2.5 2.78062 2.78062 2.5 3.125 2.5ZM3.125 17.5C2.78062 17.5 2.5 17.2194 2.5 16.875V15H9.375V17.5H3.125ZM16.875 17.5H10.625V6.25H17.5V16.875C17.5 17.2194 17.2194 17.5 16.875 17.5Z" fill="white"/>
+                                  </svg> <span data-key="t-advance-ui">Templates</span>
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarAdvanceUI" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                    <path d="M18.0351 3.66667H3.9649C3.39967 3.66731 2.85778 3.89218 2.45816 4.29192C2.05854 4.69165 1.83383 5.2336 1.83334 5.79883V16.2012C1.83383 16.7664 2.05854 17.3083 2.45816 17.7081C2.85778 18.1078 3.39967 18.3327 3.9649 18.3333H18.0351C18.6003 18.3327 19.1422 18.1078 19.5419 17.7081C19.9415 17.3083 20.1662 16.7664 20.1667 16.2012V5.79883C20.1662 5.2336 19.9415 4.69165 19.5419 4.29192C19.1422 3.89218 18.6003 3.66731 18.0351 3.66667ZM3.9649 4.88889H18.0425L11 11.3905L3.95757 4.88889H3.9649ZM18.9445 16.2012C18.9441 16.4423 18.8482 16.6735 18.6778 16.844C18.5074 17.0146 18.2762 17.1106 18.0351 17.1111H3.9649C3.72377 17.1106 3.49267 17.0146 3.32222 16.844C3.15178 16.6735 3.05589 16.4423 3.05557 16.2012V5.79883C3.05557 5.77439 3.06107 5.75117 3.0629 5.72733L10.5851 12.6714C10.698 12.7758 10.8462 12.8339 11 12.8339C11.1538 12.8339 11.302 12.7758 11.415 12.6714L18.9371 5.72733C18.9371 5.75117 18.9445 5.77439 18.9445 5.79883V16.2012Z" fill="white"/>
+                                  </svg> <span data-key="t-advance-ui">Mailbox <span class="badge badge-pill bg-danger" data-key="t-hot">33+</span></span>
+                            </a>
+                            <!-- <div class="collapse menu-dropdown" id="sidebarAdvanceUI">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a href="advance-ui-sweetalerts#" class="nav-link" data-key="t-sweet-alerts">Sweet
+                                            Alerts</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-nestable#" class="nav-link" data-key="t-nestable-list">Nestable
+                                            List</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-scrollbar#" class="nav-link" data-key="t-scrollbar">Scrollbar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-animation#" class="nav-link" data-key="t-animation">Animation</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-tour#" class="nav-link" data-key="t-tour">Tour</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-swiper#" class="nav-link" data-key="t-swiper-slider">Swiper
+                                            Slider</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-ratings#" class="nav-link" data-key="t-ratings">Ratings</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-highlight#" class="nav-link" data-key="t-highlight">Highlight</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="advance-ui-scrollspy#" class="nav-link" data-key="t-scrollSpy">ScrollSpy</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                       
+                           
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarAdvanceUI"  role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 18.5833C8.49795 18.593 7.01817 18.2202 5.7 17.5C5.67359 17.489 5.64527 17.4833 5.61666 17.4833C5.58806 17.4833 5.55973 17.489 5.53333 17.5L2.59166 18.3333C2.41162 18.3906 2.21932 18.3974 2.03567 18.3531C1.85202 18.3087 1.68405 18.2148 1.55002 18.0817C1.41599 17.9485 1.32104 17.7811 1.27549 17.5978C1.22994 17.4144 1.23553 17.2221 1.29166 17.0417L2.175 14.0833C2.19418 14.0323 2.19418 13.976 2.175 13.925C1.27158 12.2738 0.911175 10.3801 1.14493 8.5125C1.37868 6.64492 2.19472 4.89841 3.47722 3.52085C4.75972 2.14329 6.44353 1.20466 8.28966 0.838196C10.1358 0.471729 12.0504 0.696038 13.7619 1.47929C15.4733 2.26253 16.8946 3.56493 17.8239 5.20162C18.7533 6.83831 19.1436 8.72615 18.9393 10.5972C18.7351 12.4682 17.9467 14.2274 16.6861 15.625C15.4256 17.0227 13.7568 17.9878 11.9167 18.3833C11.2861 18.5144 10.644 18.5814 10 18.5833ZM5.59166 16.1917C5.83906 16.195 6.08202 16.2579 6.3 16.375C7.37842 16.9664 8.58271 17.2912 9.81227 17.3222C11.0418 17.3532 12.261 17.0895 13.3678 16.5532C14.4747 16.0169 15.4371 15.2235 16.1748 14.2392C16.9124 13.255 17.4038 12.1086 17.608 10.8957C17.8121 9.68282 17.723 8.43869 17.3482 7.26724C16.9734 6.09579 16.3237 5.03104 15.4534 4.16194C14.5831 3.29283 13.5175 2.6446 12.3455 2.2714C11.1735 1.89819 9.92927 1.81085 8.71666 2.01666C7.50171 2.21852 6.35299 2.70917 5.36713 3.44736C4.38126 4.18554 3.58707 5.14968 3.05136 6.25867C2.51564 7.36766 2.25407 8.58908 2.28864 9.8202C2.3232 11.0513 2.6529 12.2561 3.25 13.3333C3.34388 13.5034 3.40326 13.6903 3.42471 13.8834C3.44616 14.0764 3.42926 14.2718 3.375 14.4583L2.6 17.0333L5.175 16.2583C5.30986 16.2158 5.45026 16.1933 5.59166 16.1917Z" fill="white"/>
+                                    <path d="M6.66667 11.0417C7.24196 11.0417 7.70833 10.5753 7.70833 10C7.70833 9.4247 7.24196 8.95833 6.66667 8.95833C6.09137 8.95833 5.625 9.4247 5.625 10C5.625 10.5753 6.09137 11.0417 6.66667 11.0417Z" fill="white"/>
+                                    <path d="M10 11.0417C10.5753 11.0417 11.0417 10.5753 11.0417 10C11.0417 9.4247 10.5753 8.95833 10 8.95833C9.42471 8.95833 8.95834 9.4247 8.95834 10C8.95834 10.5753 9.42471 11.0417 10 11.0417Z" fill="white"/>
+                                    <path d="M13.3333 11.0417C13.9086 11.0417 14.375 10.5753 14.375 10C14.375 9.4247 13.9086 8.95833 13.3333 8.95833C12.758 8.95833 12.2917 9.4247 12.2917 10C12.2917 10.5753 12.758 11.0417 13.3333 11.0417Z" fill="white"/>
+                                  </svg> <span data-key="t-advance-ui">Chats <span class="badge badge-pill bg-danger" data-key="t-hot">33+</span></span> 
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" style=" padding: 80px 31px 0px 21px !important;    " href="#sidebarAdvanceUI"  data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <g clip-path="url(#clip0_1080_3194)">
+                                      <path d="M9.01112 12.75C6.94336 12.75 5.26108 11.0677 5.26108 8.99998C5.26108 6.93222 6.94336 5.24994 9.01112 5.24994C11.0788 5.24994 12.761 6.93222 12.761 8.99998C12.761 11.0677 11.0788 12.75 9.01112 12.75ZM9.01112 6.37494C7.56354 6.37494 6.38608 7.55254 6.38608 8.99998C6.38608 10.4474 7.56354 11.625 9.01112 11.625C10.4586 11.625 11.636 10.4474 11.636 8.99998C11.636 7.55254 10.4586 6.37494 9.01112 6.37494Z" fill="white"/>
+                                      <path d="M10.2584 18H7.76377C7.16378 18 6.63355 17.574 6.50309 16.9868L6.18737 15.5827C5.6728 15.3645 5.18226 15.0796 4.7218 14.7316L3.35455 15.1635C2.76801 15.3457 2.13053 15.0967 1.83651 14.5717L0.593134 12.4216C0.295267 11.889 0.395792 11.2335 0.833872 10.821L1.8935 9.84677C1.86137 9.56099 1.84558 9.27754 1.84558 9C1.84558 8.72246 1.86137 8.43901 1.89282 8.15323L0.839091 7.18355C0.395792 6.76648 0.294581 6.11101 0.589289 5.58531L1.84036 3.42155C2.13053 2.90245 2.76953 2.65581 3.35235 2.83502L4.7218 3.26775C5.18226 2.91975 5.6728 2.6348 6.18737 2.41644L6.50378 1.01102C6.63355 0.425995 7.16378 0 7.76377 0H10.2584C10.8583 0 11.3886 0.425995 11.519 1.01321L11.8348 2.41727C12.3493 2.63548 12.8399 2.92044 13.3003 3.26843L14.6676 2.83653C15.2556 2.65581 15.8916 2.90327 16.1856 3.42828L17.4291 5.57845C17.7269 6.11101 17.6263 6.76648 17.1883 7.17902L16.1286 8.15323C16.1601 8.43901 16.1759 8.72328 16.1759 9C16.1759 9.27672 16.1601 9.56099 16.1286 9.84677L17.183 10.8158C17.1845 10.8173 17.1861 10.8188 17.1883 10.8203C17.6263 11.2327 17.7275 11.8883 17.4328 12.414L16.1818 14.5778C15.8916 15.0967 15.2541 15.345 14.6691 15.1635L13.2995 14.7307C12.839 15.0787 12.3485 15.3637 11.8341 15.582L11.5175 16.9875C11.3886 17.574 10.8583 18 10.2584 18ZM4.8366 13.5442C4.96556 13.5442 5.09231 13.5884 5.19435 13.6725C5.7096 14.0963 6.27128 14.4233 6.86605 14.6423C7.04527 14.7082 7.17806 14.8605 7.22009 15.0465L7.60186 16.7415C7.61903 16.8195 7.68728 16.875 7.7646 16.875H10.259C10.3364 16.875 10.4046 16.8195 10.4211 16.743L10.8036 15.0465C10.8456 14.8605 10.9784 14.7082 11.1576 14.6423C11.7515 14.4233 12.314 14.0963 12.8293 13.6725C12.9764 13.5509 13.1743 13.5119 13.3566 13.5698L15.0073 14.0911C15.086 14.1158 15.1701 14.0865 15.206 14.022L16.4571 11.8582C16.4946 11.7915 16.481 11.7 16.4211 11.6415L15.1551 10.4775C15.0178 10.3515 14.9519 10.1647 14.9796 9.98026C15.029 9.64806 15.0539 9.31805 15.0539 8.99931C15.0539 8.68044 15.029 8.35043 14.9796 8.01823C14.9519 7.8338 15.0178 7.64772 15.1551 7.52097L16.424 6.35394C16.481 6.3008 16.4946 6.20769 16.4533 6.13353L15.2098 3.98323C15.1694 3.91196 15.0838 3.88353 15.0058 3.90825L13.3573 4.42873C13.1758 4.48654 12.9779 4.44754 12.8301 4.326C12.3149 3.90221 11.753 3.57523 11.1583 3.35619C10.9791 3.29027 10.8463 3.13797 10.8044 2.95203L10.4226 1.25697C10.4038 1.18048 10.3355 1.125 10.2584 1.125H7.76377C7.68659 1.125 7.61834 1.18048 7.60186 1.25697L7.21926 2.95354C7.17738 3.13948 7.04458 3.29095 6.86537 3.3577C6.27128 3.57674 5.70878 3.90372 5.19435 4.32751C5.04658 4.44905 4.84704 4.48723 4.66714 4.43024L3.01631 3.90894C2.93913 3.88504 2.85357 3.91347 2.81759 3.97801L1.56652 6.14095C1.52903 6.20851 1.54263 6.30148 1.60484 6.35999L2.86936 7.52179C3.00656 7.64772 3.07261 7.83449 3.04487 8.01906C2.99529 8.35126 2.97058 8.68126 2.97058 9C2.97058 9.31874 2.99529 9.64874 3.04487 9.98094C3.07261 10.1655 3.00656 10.3515 2.86936 10.4782L1.60031 11.6452C1.54331 11.6985 1.52986 11.7915 1.57105 11.8658L2.81457 14.0159C2.85426 14.0872 2.93981 14.115 3.0185 14.0911L4.66714 13.5704C4.72262 13.5525 4.77961 13.5442 4.8366 13.5442Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1080_3194">
+                                        <rect width="18" height="18" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg> <span data-key="t-advance-ui">Settings </span> 
+                            </a>
+                            
+                        </li>
+
+
+                    
+
+                    
+                    
+                    </ul>
+                   
+                </div>
+                <!-- Sidebar -->
+            </div>
+
+            <div class="sidebar-background"></div>
+        </div>
+        <!-- Left Sidebar End -->
+        <!-- Vertical Overlay-->
+        <div class="vertical-overlay"></div>
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="h-100">
+                                <div class="row mb-3 pb-1">
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-lg-center flex-lg-row flex-column">
+                                            <div class="flex-grow-1">
+                                                <h4 class="fs-16 mb-1">Dashboard</h4>
+                                                <!-- <p class="text-muted mb-0">Here's what's happening with your store today.</p> -->
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- end card header -->
+                                    </div>
+                                    <!--end col-->
+                                </div>
+                                <!--end row-->
+
+                                <div class="row">
+                                    <div class="col-xl-3 col-md-6">
+                                        <!-- card -->
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-grow-1 overflow-hidden">
+                                                        <p class="text-uppercase fw-medium text-muted text-truncate mb-0"> TOTAL CONTENT</p>
+                                                    </div>
+                                                    <div class="flex-shrink-0">
+                                                        <div class="dropdown card-header-dropdown">
+                                                            <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <span class="text-muted">This Month<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <a class="dropdown-item" href="#">Download Report</a>
+                                                                <a class="dropdown-item" href="#">Export</a>
+                                                                <a class="dropdown-item" href="#">Import</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-end justify-content-between mt-4">
+                                                    <div>
+                                                        <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value" data-target="1234">0</span> </h4>
+                                                        <!-- <a href="#" class="text-decoration-underline">View net earnings</a> -->
+                                                    </div>
+                                                    <!-- <div class="avatar-sm flex-shrink-0">
+                                                        <span class="avatar-title bg-success-subtle rounded fs-3">
+                                                            <i class="bx bx-dollar-circle text-success"></i>
+                                                        </span>
+                                                    </div> -->
+                                                </div>
+                                            </div><!-- end card body -->
+                                        </div><!-- end card -->
+                                    </div><!-- end col -->
+
+                                    <div class="col-xl-3 col-md-6">
+                                        <!-- card -->
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-grow-1 overflow-hidden">
+                                                     <p class="text-uppercase fw-medium text-muted text-truncate mb-0">INPROGRESS CONTENT</p>
+                                                    </div>
+                                                    <div class="flex-shrink-0">
+                                                        <div class="dropdown card-header-dropdown">
+                                                            <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <span class="text-muted">This Month<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <a class="dropdown-item" href="#">Download Report</a>
+                                                                <a class="dropdown-item" href="#">Export</a>
+                                                                <a class="dropdown-item" href="#">Import</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-end justify-content-between mt-4">
+                                                    <div>
+                                                        <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value" data-target="534">0</span></h4>
+                                                        <!-- <a href="#" class="text-decoration-underline">View all orders</a> -->
+                                                    </div>
+                                                    <!-- <div class="avatar-sm flex-shrink-0">
+                                                        <span class="avatar-title bg-info-subtle rounded fs-3">
+                                                            <i class="bx bx-shopping-bag text-info"></i>
+                                                        </span>
+                                                    </div> -->
+                                                </div>
+                                            </div><!-- end card body -->
+                                        </div><!-- end card -->
+                                    </div><!-- end col -->
+
+                                    <div class="col-xl-3 col-md-6">
+                                        <!-- card -->
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-grow-1 overflow-hidden">
+                                                        <p class="text-uppercase fw-medium text-muted text-truncate mb-0">COMPLETED CONTENT</p>
+                                                    </div>
+                                                    <div class="flex-shrink-0">
+                                                        <div class="dropdown card-header-dropdown">
+                                                            <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <span class="text-muted">This Montht<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <a class="dropdown-item" href="#">Download Report</a>
+                                                                <a class="dropdown-item" href="#">Export</a>
+                                                                <a class="dropdown-item" href="#">Import</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-end justify-content-between mt-4">
+                                                    <div>
+                                                        <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value" data-target="424">0</span> </h4>
+                                                        <!-- <a href="#" class="text-decoration-underline">See details</a> -->
+                                                    </div>
+                                                    <!-- <div class="avatar-sm flex-shrink-0">
+                                                        <span class="avatar-title bg-warning-subtle rounded fs-3">
+                                                            <i class="bx bx-user-circle text-warning"></i>
+                                                        </span>
+                                                    </div> -->
+                                                </div>
+                                            </div><!-- end card body -->
+                                        </div><!-- end card -->
+                                    </div><!-- end col -->
+
+                                    <div class="col-xl-3 col-md-6">
+                                        <!-- card -->
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-grow-1 overflow-hidden">
+                                                        <p class="text-uppercase fw-medium text-muted text-truncate mb-0"> PENDING CONTENT</p>
+                                                    </div>
+                                                    <div class="flex-shrink-0">
+                                                        <div class="dropdown card-header-dropdown">
+                                                            <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <span class="text-muted">This Month<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <a class="dropdown-item" href="#">Download Report</a>
+                                                                <a class="dropdown-item" href="#">Export</a>
+                                                                <a class="dropdown-item" href="#">Import</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-end justify-content-between mt-4">
+                                                    <div>
+                                                        <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value" data-target="110">0</span> </h4>
+                                                        <!-- <a href="#" class="text-decoration-underline">Withdraw money</a> -->
+                                                    </div>
+                                                    <!-- <div class="avatar-sm flex-shrink-0">
+                                                        <span class="avatar-title bg-primary-subtle rounded fs-3">
+                                                            <i class="bx bx-wallet text-primary"></i>
+                                                        </span>
+                                                    </div> -->
+                                                </div>
+                                            </div><!-- end card body -->
+                                        </div><!-- end card -->
+                                    </div><!-- end col -->
+                                </div> <!-- end row-->
+
+                                <div class="row">
+                                    <div class="col-xl-8">
+                                        <div class="card card-height-100">
+                                            <div class="card-header align-items-center d-flex">
+                                                <h4 class="card-title mb-0 flex-grow-1">Content & Revenue Report</h4>
+                                                <div class="flex-shrink-0">
+                                                    <div class="dropdown card-header-dropdown">
+                                                        <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <span class="fw-semibold text-uppercase fs-12"> </span><span class="text-muted">This Month<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Today</a>
+                                                            <a class="dropdown-item" href="#">Last Week</a>
+                                                            <a class="dropdown-item" href="#">Last Month</a>
+                                                            <a class="dropdown-item" href="#">Current Year</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end card header -->
+                                            <div class="card-body px-0">
+                                                <ul class="list-inline main-chart text-center mb-0">
+                                                    <li class="list-inline-item chart-border-left me-0 border-0">
+                                                        <h4 class="text-primary">$584k <span class="text-muted d-inline-block fs-13 align-middle ms-2">Revenue</span></h4>
+                                                    </li>
+                                                    <li class="list-inline-item chart-border-left me-0">
+                                                        <h4>$497k<span class="text-muted d-inline-block fs-13 align-middle ms-2">Expenses</span>
+                                                        </h4>
+                                                    </li>
+                                                    <li class="list-inline-item chart-border-left me-0">
+                                                        <h4><span data-plugin="counterup">3.6</span>%<span class="text-muted d-inline-block fs-13 align-middle ms-2">Profit Ratio</span></h4>
+                                                    </li>
+                                                </ul>
+            
+                                                <div id="revenue-expenses-charts" data-colors='["--vz-success", "--vz-danger"]' class="apex-charts" dir="ltr"></div>
+                                            </div>
+                                        </div><!-- end card --><!-- end card -->
+                                    </div><!-- end col -->
+
+                                    <div class="col-xl-4">
+                                        <!-- card -->
+                                        <div class="card card-height-100">
+                                            <div class="card-header align-items-center d-flex">
+                                                <h4 class="card-title mb-0 flex-grow-1">Leads by Country</h4>
+                                                <div class="flex-shrink-0">
+                                                    <div class="dropdown card-header-dropdown">
+                                                        <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <span class="text-muted">This Month<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Download Report</a>
+                                                            <a class="dropdown-item" href="#">Export</a>
+                                                            <a class="dropdown-item" href="#">Import</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end card header -->
+
+                                            <!-- card body -->
+                                            <div class="card-body">
+
+                                                <div id="store-visits-source" data-colors='["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]' class="apex-charts" dir="ltr"></div>
+
+                                                <!-- <div class="px-2 py-2 mt-1">
+                                                    <p class="mb-1">Canada <span class="float-end">75%</span></p>
+                                                    <div class="progress mt-2" style="height: 6px;">
+                                                        <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75"></div>
+                                                    </div>
+
+                                                    <p class="mt-3 mb-1">Greenland <span class="float-end">47%</span>
+                                                    </p>
+                                                    <div class="progress mt-2" style="height: 6px;">
+                                                        <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 47%" aria-valuenow="47" aria-valuemin="0" aria-valuemax="47"></div>
+                                                    </div>
+
+                                                    <p class="mt-3 mb-1">Russia <span class="float-end">82%</span></p>
+                                                    <div class="progress mt-2" style="height: 6px;">
+                                                        <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="82"></div>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                            <!-- end card body -->
+                                        </div>
+                                        <!-- end card -->
+                                    </div>
+                                    <!-- end col -->
+                                </div>
+
+                             
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="card">
+                                            <div class="card-header border-0 align-items-center d-flex">
+                                                <h4 class="card-title mb-0 flex-grow-1">Recent Activities</h4>
+                                                
+                                                <div class="flex-shrink-0">
+                                                    <div class="dropdown card-header-dropdown">
+                                                        <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <span class="text-muted">This Month<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Download Report</a>
+                                                            <a class="dropdown-item" href="#">Export</a>
+                                                            <a class="dropdown-item" href="#">Import</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end card header -->
+
+                                           
+
+                                            <div class="card-body p-0">
+                                                <div data-simplebar style="height: 390px;">
+                                                    <div class="p-3">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                    <!-- <i data-feather="arrow-down-circle" class="icon-dual-success icon-sm"></i> -->
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Kashmira Khatun</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Sandip Sah has submitted the content files of Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">10:30<span class="text-uppercase ms-1">Am</span></h6>
+                                                              
+                                                            </div>
+                                                        </div><!-- end -->
+                                                        <div class="d-flex align-items-center mt-3">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Sandip Sah</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Sandip Sah has submitted the content files of Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">10:30<span class="text-uppercase ms-1">Am</span></h6>
+                                                            </div>
+                                                        </div><!-- end -->
+            
+                                                        
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Ujjal Mondal</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Ujjal Mondal has shared the site files for
+                                                                    Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">1:35 <span class="text-uppercase ms-1">Pm</span></h6>
+                                                            </div>
+                                                        </div><!-- end -->
+                                                        <div class="d-flex align-items-center mt-3">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Sandip Sah</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Sandip Sah has submitted the content files of Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">10:30<span class="text-uppercase ms-1">Am</span></h6>
+                                                            </div>
+                                                        </div><!-- end -->
+                                                        
+                                                        <div class="d-flex align-items-center mt-3">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Kashmira Khatun</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Sandip Sah has submitted the content files of Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">1:35 <span class="text-uppercase ms-1">Pm</span></h6>
+                                                            </div>
+                                                        </div><!-- end -->
+                                                        <div class="d-flex align-items-center mt-3">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Kashmira Khatun</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Sandip Sah has submitted the content files of Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">1:35 <span class="text-uppercase ms-1">Pm</span></h6>
+                                                            </div>
+                                                        </div><!-- end -->
+            
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Kashmira Khatun</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Sandip Sah has submitted the content files of Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">1:35 <span class="text-uppercase ms-1">Pm</span></h6>
+                                                            </div>
+                                                        </div><!-- end -->
+            
+                                                        <div class="d-flex align-items-center mt-3">
+                                                            <div class="avatar-xs flex-shrink-0">
+                                                                <span class="avatar-title bg-light rounded-circle">
+                                                                    <img src="./assets/images/Kashmira Khatun.svg" alt="" srcset="">
+                                                                </span>
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h6 class="fs-14 mb-1">Ujjal Mondal</h6>
+                                                                <p class="text-muted fs-12 mb-0">
+                                                                    Ujjal Mondal has shared the site files for
+                                                                    Kane Brook.
+                                                                </p>
+                                                            </div>
+                                                            <div class="flex-shrink-0 text-end">
+                                                                <h6 class="mb-1 text-success">1:35 <span class="text-uppercase ms-1">Pm</span></h6>
+                                                            </div>
+                                                        </div><!-- end -->
+            
+                                                        <div class="mt-3 text-center">
+                                                            <a href="javascript:void(0);" class="text-muted text-decoration-underline">Load More</a>
+                                                        </div>
+            
+                                                    </div>
+            
+                                                </div>
+                                            </div><!-- end card body -->
+                                        </div><!-- end card -->
+                                    </div><!-- end col -->
+
+                                    <div class="col-xl-8">
+                                        <!-- card -->
+                                        <div class="card card-height-100">
+                                            <div class="card-header align-items-center d-flex">
+                                                <h4 class="card-title mb-0 flex-grow-1">Individual Report</h4>
+                                                <div class="flex-shrink-0">
+                                                    <div class="dropdown card-header-dropdown">
+                                                        <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <span class="text-muted">This Month<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Download Report</a>
+                                                            <a class="dropdown-item" href="#">Export</a>
+                                                            <a class="dropdown-item" href="#">Import</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end card header -->
+
+                                            <!-- card body -->
+                                            <div class="card-body">
+                                                <canvas id="bar" class="chartjs-chart" data-colors='["--vz-primary-rgb, 0.8", "--vz-primary-rgb, 0.9"]'></canvas>
+            
+                                            </div>
+                                            <!-- end card body -->
+                                        </div>
+                                        <!-- end card -->
+                                    </div>
+                                    <!-- end col -->
+                                </div>
+
+
+                            </div> <!-- end .h-100-->
+
+                        </div> <!-- end col -->
+
+                       
+                    </div>
+
+                </div>
+                <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © CRM Dashboard.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Design &amp; Develop by Viacon India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+
+
+    <!--start back-to-top-->
+    <button onclick="topFunction()" class="btn btn-danger btn-icon" id="back-to-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--end back-to-top-->
+
+    <!--preloader-->
+ 
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="assets/js/plugins.js"></script>
+
+    <!-- apexcharts -->
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+    <!-- Vector map-->
+    <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+    <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+
+    <!--Swiper slider js-->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Dashboard init -->
+    <script src="assets/js/pages/dashboard-ecommerce.init.js"></script>
+ <!-- apexcharts -->
+ <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+ <!-- Dashboard init -->
+ <script src="assets/js/pages/dashboard-crm.init.js"></script>
+    <!-- Chart JS -->
+    <script src="assets/libs/chart.js/chart.umd.js"></script>
+
+    <!-- chartjs init -->
+    <script src="assets/js/pages/chartjs.init.js"></script>
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
