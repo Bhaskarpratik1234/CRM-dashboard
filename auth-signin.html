@@ -1,17 +1,19 @@
+
 <!doctype html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
+
 <head>
 
     <meta charset="utf-8" />
-    <title>Sign In |  Admin & Dashboard </title>
+    <title>Create Password |  Admin & Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesbrand" name="author" />
+   
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/faviconico">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
 
     <!-- Layout config Js -->
     <script src="assets/js/layout.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
@@ -23,112 +25,187 @@
 
 </head>
 
-<body>
+<body style="background-color: #fff;">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+   <!-- Start auth-page-wrapper -->
+               <div class="col-md-6 d-none d-md-flex bg-image">
+                <div class="p-lg-5 p-4 auth-one-bg h-100">
+                    <div class="bg-overlay"></div>
+                    <div class="position-relative h-100 d-flex flex-column">
+                        <div class="mb-4">
+                            <a href="#" class="d-block">
+                                <img src="assets/images/viacon-logo.svg" alt="" height="24">
+                            </a>
+                        </div>
+                        <div class="mt-auto">
+                           
 
-    <div class="auth-page-wrapper pt-5">
-        <!-- auth page bg -->
-        <!-- <div class="auth-one-bg-position auth-one-bg" id="auth-particles">
-            <div class="bg-overlay"></div>
-
-            <div class="shape">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 120">
-                    <path d="M 0,36 C 144,53.6 432,123.2 720,124 C 1008,124.8 1296,56.8 1440,40L1440 140L0 140z"></path>
-                </svg>
-            </div>
-        </div> -->
-
-        <!-- auth page content -->
-        <div class="auth-page-content">
-            <div class="container">
-              
-                <!-- end row -->
-
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-6 col-xl-5">
-                        <div class="card mt-4">
-
-                            <div class="card-body p-4">
-                                <div class="text-center mt-2">
-                                    <h5 class="text-primary">Welcome Back !</h5>
-                                 
+                            <div id="qoutescarouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#qoutescarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#qoutescarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#qoutescarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
-                                <div class="p-2 mt-4">
+                                <div class="carousel-inner  text-white-50 pb-5">
+                                    
+                                    <div class="carousel-item active">
+                                        <div class="mb-0 mt-5" style="margin-bottom: -35px !important;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36" viewBox="0 0 40 36" fill="none">
+                                                <g opacity="0.4">
+                                                  <path d="M22.134 36H39.2805V16.9399H30.5387C30.3973 14.5696 30.4408 13.1996 31.6151 11.4274C32.9416 9.43762 34.8552 8.4482 37.2472 8.37209V0C37.1276 0 37.0298 0 36.9428 0C36.5296 0.0217457 36.1056 2.06573e-07 35.6924 0.0543644C32.5828 0.424041 29.7993 1.56569 27.4291 3.63153C24.102 6.5237 22.1775 10.177 22.1231 14.6131C22.0361 21.5826 22.1014 28.5412 22.1014 35.5107C22.1014 35.6738 22.1122 35.8369 22.1231 35.9891L22.134 36Z" fill="white"/>
+                                                  <path d="M0.0188112 36.0001H17.187V16.9509H8.46701C7.79289 12.0907 10.8373 8.43744 15.1538 8.35045V0.0436046C15.0777 0.0327317 15.0559 0.0109863 15.0233 0.0109863C14.9472 0.0109863 14.8711 0.0109863 14.795 0.0109863C10.7938 0.130588 7.35798 1.60929 4.52017 4.41449C1.68236 7.21968 0.0840482 10.6446 0.0405568 14.6458C-0.0355531 21.5936 0.0188112 28.5413 0.0188112 35.4999V36.0001Z" fill="white"/>
+                                                </g>
+                                              </svg>
+                                            <!-- <i class="ri-double-quotes-l display-4 text-success"></i> -->
+                                        </div>
+                                        <p class="fs-15 fst-italic" style="color: #fff; margin-top: 10px ; margin-left: 58px;">" Quality is more important than quantity. One home run is much better than two doubles. "</p>
+                                        <p class="fs-15 fst-italic" style="color: #FEF86A; margin-top: 10px ; margin-left: 58px; "> <svg xmlns="http://www.w3.org/2000/svg" width="38" height="2" viewBox="0 0 38 2" fill="none">
+                                            <path d="M0 1.42001V0H37.92V1.42001H0Z" fill="#FEF86A"/>
+                                          </svg> Steve Jobs</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="mb-0 mt-5" style="margin-bottom: -35px !important;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36" viewBox="0 0 40 36" fill="none">
+                                                <g opacity="0.4">
+                                                  <path d="M22.134 36H39.2805V16.9399H30.5387C30.3973 14.5696 30.4408 13.1996 31.6151 11.4274C32.9416 9.43762 34.8552 8.4482 37.2472 8.37209V0C37.1276 0 37.0298 0 36.9428 0C36.5296 0.0217457 36.1056 2.06573e-07 35.6924 0.0543644C32.5828 0.424041 29.7993 1.56569 27.4291 3.63153C24.102 6.5237 22.1775 10.177 22.1231 14.6131C22.0361 21.5826 22.1014 28.5412 22.1014 35.5107C22.1014 35.6738 22.1122 35.8369 22.1231 35.9891L22.134 36Z" fill="white"/>
+                                                  <path d="M0.0188112 36.0001H17.187V16.9509H8.46701C7.79289 12.0907 10.8373 8.43744 15.1538 8.35045V0.0436046C15.0777 0.0327317 15.0559 0.0109863 15.0233 0.0109863C14.9472 0.0109863 14.8711 0.0109863 14.795 0.0109863C10.7938 0.130588 7.35798 1.60929 4.52017 4.41449C1.68236 7.21968 0.0840482 10.6446 0.0405568 14.6458C-0.0355531 21.5936 0.0188112 28.5413 0.0188112 35.4999V36.0001Z" fill="white"/>
+                                                </g>
+                                              </svg>
+                                            <!-- <i class="ri-double-quotes-l display-4 text-success"></i> -->
+                                        </div>
+                                        <p class="fs-15 fst-italic" style="color: #fff; margin-top: 10px ; margin-left: 58px;">" Quality is more important than quantity. One home run is much better than two doubles. "</p>
+                                        <p class="fs-15 fst-italic" style="color: #FEF86A; margin-top: 10px ; margin-left: 58px;"> <svg xmlns="http://www.w3.org/2000/svg" width="38" height="2" viewBox="0 0 38 2" fill="none">
+                                            <path d="M0 1.42001V0H37.92V1.42001H0Z" fill="#FEF86A"/>
+                                          </svg> Elon Musk </p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="mb-0 mt-5" style="margin-bottom: -35px !important;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36" viewBox="0 0 40 36" fill="none">
+                                                <g opacity="0.4">
+                                                  <path d="M22.134 36H39.2805V16.9399H30.5387C30.3973 14.5696 30.4408 13.1996 31.6151 11.4274C32.9416 9.43762 34.8552 8.4482 37.2472 8.37209V0C37.1276 0 37.0298 0 36.9428 0C36.5296 0.0217457 36.1056 2.06573e-07 35.6924 0.0543644C32.5828 0.424041 29.7993 1.56569 27.4291 3.63153C24.102 6.5237 22.1775 10.177 22.1231 14.6131C22.0361 21.5826 22.1014 28.5412 22.1014 35.5107C22.1014 35.6738 22.1122 35.8369 22.1231 35.9891L22.134 36Z" fill="white"/>
+                                                  <path d="M0.0188112 36.0001H17.187V16.9509H8.46701C7.79289 12.0907 10.8373 8.43744 15.1538 8.35045V0.0436046C15.0777 0.0327317 15.0559 0.0109863 15.0233 0.0109863C14.9472 0.0109863 14.8711 0.0109863 14.795 0.0109863C10.7938 0.130588 7.35798 1.60929 4.52017 4.41449C1.68236 7.21968 0.0840482 10.6446 0.0405568 14.6458C-0.0355531 21.5936 0.0188112 28.5413 0.0188112 35.4999V36.0001Z" fill="white"/>
+                                                </g>
+                                              </svg>
+                                            <!-- <i class="ri-double-quotes-l display-4 text-success"></i> -->
+                                        </div>
+                                        <p class="fs-15 fst-italic" style="color: #fff; margin-top: 10px ; margin-left: 58px;">" Quality is more important than quantity. One home run is much better than two doubles. "</p>
+                                        <p class="fs-15 fst-italic" style="color: #FEF86A; margin-top: 10px ; margin-left: 58px;"> <svg xmlns="http://www.w3.org/2000/svg" width="38" height="2" viewBox="0 0 38 2" fill="none">
+                                            <path d="M0 1.42001V0H37.92V1.42001H0Z" fill="#FEF86A"/>
+                                          </svg> Steve Jobs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end carousel -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- The content half -->
+            <div class="col-md-6 bg-light">
+                <div class="login d-flex align-items-center py-5">
+    
+                    <!-- Demo content-->
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="p-lg-5 py-5 mb-5">
+                                <div>
+                                    <h5 class="text-primary text-center fs-24 fw-semibold">Welcome to Admin panel 2.0 </h5>
+                                    <p class="text-muted text-center fs-18 fw-normal">Sign in to continue</p>
+                                </div>
+
+                                <div class="mt-4">
                                     <form action="#">
 
                                         <div class="mb-3">
-                                            <label for="username" class="form-label">Username</label>
-                                            <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                            <label class="visually-hidden" for="autoSizingInputGroup">Email</label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                                    <path d="M0.5 1.375H15.5M0.5 1.375V12C0.5 12.1658 0.565848 12.3247 0.683058 12.4419C0.800269 12.5592 0.95924 12.625 1.125 12.625H14.875C15.0408 12.625 15.1997 12.5592 15.3169 12.4419C15.4342 12.3247 15.5 12.1658 15.5 12V1.375M0.5 1.375L8 8.25L15.5 1.375" stroke="#5E718D" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg></div>
+                                                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email">
+                                            </div>
+                                            
                                         </div>
 
                                         <div class="mb-3">
-                                            <div class="float-end">
-                                                <a href="auth-pass-reset-basic.html" class="text-muted">Forgot password?</a>
+                                            <label class="visually-hidden" for="autoSizingInputGroup">Password</label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">
+                                                    <path d="M7.99951 12.5V14.375M7.99951 12.5C8.86246 12.5 9.56201 11.8004 9.56201 10.9375C9.56201 10.0746 8.86246 9.375 7.99951 9.375C7.13657 9.375 6.43701 10.0746 6.43701 10.9375C6.43701 11.8004 7.13657 12.5 7.99951 12.5ZM5.18701 6.875V4.0625C5.18701 3.31658 5.48333 2.60121 6.01077 2.07376C6.53822 1.54632 7.25359 1.25 7.99951 1.25C8.74543 1.25 9.4608 1.54632 9.98825 2.07376C10.5157 2.60121 10.812 3.31658 10.812 4.0625V6.875M1.74951 6.875H14.2495C14.5947 6.875 14.8745 7.15482 14.8745 7.5V16.25C14.8745 16.5952 14.5947 16.875 14.2495 16.875H1.74951C1.40433 16.875 1.12451 16.5952 1.12451 16.25V7.5C1.12451 7.15482 1.40433 6.875 1.74951 6.875Z" stroke="#5E718D" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  </svg></div>
+                                                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Password">
                                             </div>
-                                            <label class="form-label" for="password-input">Password</label>
-                                            <div class="position-relative auth-pass-inputgroup mb-3">
-                                                <input type="password" class="form-control pe-5 password-input" placeholder="Enter password" id="password-input">
-                                                <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
-                                            </div>
+                                           
                                         </div>
 
                                         <div class="form-check">
+                                            
                                             <input class="form-check-input" type="checkbox" value="" id="auth-remember-check">
-                                            <label class="form-check-label" for="auth-remember-check">Remember me</label>
+                                            <label class="form-check-label fs-14 fw-normal" for="auth-remember-check">Remember me on this computer</label>
                                         </div>
 
                                         <div class="mt-4">
-                                            <button class="btn btn-success w-100" type="submit">Sign In</button>
+                                            <button class="btn btn-primary w-100 fs-18 fw-medium" type="submit">Login</button>
                                         </div>
 
-                                        <div class="mt-4 text-center">
+                                        <div class="mt-5 text-center">
                                             <div class="signin-other-title">
-                                                <h5 class="fs-13 mb-4 title">Sign In with</h5>
+                                                <h5 class="fs-16 fw-medium mb-4 title "><a href="auth-pass-reset.html">Forgot your password?</a></h5>
                                             </div>
-                                            <div>
-                                                <button type="button" class="btn btn-primary btn-icon waves-effect waves-light"><i class="ri-facebook-fill fs-16"></i></button>
-                                                <button type="button" class="btn btn-danger btn-icon waves-effect waves-light"><i class="ri-google-fill fs-16"></i></button>
-                                                <button type="button" class="btn btn-dark btn-icon waves-effect waves-light"><i class="ri-linkedin-fill fs-16"></i></button>
-                                                <button type="button" class="btn btn-info btn-icon waves-effect waves-light"><i class="ri-twitter-fill fs-16"></i></button>
-                                            </div>
+
+                                           
                                         </div>
+
                                     </form>
                                 </div>
+
+                               
                             </div>
-                            <!-- end card body -->
+                       
+                           
+                           
                         </div>
-                        <!-- end card -->
-
-                        <div class="mt-4 text-center">
-                            <p class="mb-0">Don't have an account ? <a href="auth-signup.html" class="fw-semibold text-primary text-decoration-underline"> Signup </a> </p>
-                        </div>
-
-                    </div>
+                    </div><!-- End -->
+    
                 </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
+            </div><!-- End -->
+    
         </div>
-        <!-- end auth page content -->
-
-        <!-- footer -->
-       
-        <!-- end Footer -->
     </div>
-    <!-- end auth-page-wrapper -->
+<style>
+    /*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('assets/images/auth-one-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+</style>    
+      <!-- end auth-page-wrapper -->
 
     <!-- JAVASCRIPT -->
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <!-- <script src="assets/libs/node-waves/waves.min.js"></script>
     <script src="assets/libs/feather-icons/feather.min.js"></script>
     <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/plugins.js"></script> -->
 
-    <!-- particles js -->
-    <script src="assets/libs/particles.js/particles.js"></script>
-    <!-- particles app js -->
-    <script src="assets/js/pages/particles.app.js"></script>
     <!-- password-addon init -->
-    <script src="assets/js/pages/password-addon.init.js"></script>
+    <script src="assets/js/pages/passowrd-create.init.js"></script>
 </body>
+
 </html>
