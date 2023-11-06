@@ -6109,6 +6109,17 @@ width: 100%;
 .role-height{
   max-height: 80% !important;
 }
+.login-business-unit-selection{
+  color: #451CC0 !important;
+}
+.login-business-unit-selection-mrt{
+  margin: 1px 44px 14px 58px !important;
+}
+.login-business-unit-selection-position{
+      position: absolute;
+    right: 110px !important;
+}
+
 .empty-roles{
   padding: 92px;
 }
