@@ -1,18 +1,18 @@
-// var url = "assets/json/"
-//   , allmaillist = "";
-// const loader = document.querySelector("#elmLoader");
-// var getJSON = function(e, t) {
-//     var a = new XMLHttpRequest;
-//     a.open("GET", url + e, !0),
-//     a.responseType = "json",
-//     a.onload = function() {
-//         var e = a.status;
-//         200 === e ? (document.getElementById("elmLoader").innerHTML = "",
-//         t(null, a.response)) : t(e, a.response)
-//     }
-//     ,
-//     a.send()
-// };
+var url = "assets/json/"
+  , allmaillist = "";
+const loader = document.querySelector("#elmLoader");
+var getJSON = function(e, t) {
+    var a = new XMLHttpRequest;
+    a.open("GET", url + e, !0),
+    a.responseType = "json",
+    a.onload = function() {
+        var e = a.status;
+        200 === e ? (document.getElementById("elmLoader").innerHTML = "",
+        t(null, a.response)) : t(e, a.response)
+    }
+    ,
+    a.send()
+};
 function loadMailData(e) {
     document.querySelector('#mail-filter-navlist button[data-bs-target="#pills-primary"]').click(),
     document.querySelector("#mail-list").innerHTML = "",

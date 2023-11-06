@@ -2050,7 +2050,8 @@ progress {
   vertical-align: bottom;
 }
 .table-group-divider {
-  border-top: calc(var(--vz-border-width) * 1) solid currentcolor !important;
+ background-image: url('<svg xmlns="http://www.w3.org/2000/svg" width="920" height="2" viewBox="0 0 920 2" fill="none"><path d="M0 1H920" stroke="#D9D9D9" /></svg>');
+  align-items: center;
 }
 .caption-top {
   caption-side: top;

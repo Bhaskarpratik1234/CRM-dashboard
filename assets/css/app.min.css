@@ -6106,6 +6106,9 @@ width: 100%;
     height: 50px !important;
     
 }
+.role-height{
+  max-height: 80% !important;
+}
 .empty-roles{
   padding: 92px;
 }
