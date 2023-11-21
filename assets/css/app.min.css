@@ -86,6 +86,9 @@
   padding: 7px;
   border-top: 1px solid var(--vz-border-color);
 }
+.logo-height{
+  height: 8% !important;
+}
 .navbar-header .btn-topbar {
   height: 42px;
   width: 42px;
@@ -4380,7 +4383,7 @@ code {
 :root {
   --vz-card-logo-dark: block;
   --vz-card-logo-light: none;
-  --vz-vertical-menu-width: 250px;
+  --vz-vertical-menu-width: 16% !important;
   --vz-vertical-menu-width-md: 180px;
   --vz-vertical-menu-width-sm: 70px;
   --vz-header-bg: #fff;
@@ -15230,6 +15233,7 @@ span.flatpickr-weekday {
   background-color: var(--vz-secondary-bg);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  /* border-radius: 25px 25px 0px 0px !important; */
 }
 .unreadConversations-alert {
   position: fixed;
@@ -15376,7 +15380,11 @@ span.flatpickr-weekday {
 .message-list li .col-mail-2 .Unassigned {
   right: 0;
   width: 100px;
-  padding-left: 280px;
+  padding-left: 219px !important;
+}
+.inbox-leftbar{
+  position: absolute;
+  
 }
 .message-list li .col-mail-2 .Outreach{
   position: absolute;

@@ -2025,28 +2025,34 @@
                                                                                 <!-- Nav tabs -->
                                                                                 <ul class="nav nav-tabs nav-border-top nav-border-top-primary mb-3" role="tablist">
                                                                                     <li class="nav-item">
-                                                                                        <a class="nav-link active fs-16 fw-normal" data-bs-toggle="tab"
-                                                                                            href="#Basic-details-mailbox1" role="tab">
-                                                                                            Basic details
+                                                                                        <a class="nav-link active fs-16 fw-normal" data-bs-toggle="tab" href="#Basic-details-mailbox1" role="tab">
+                                                                                            General
                                                                                         </a>
                                                                                     </li>
                                                                                     <li class="nav-item">
-                                                                                        <a class="nav-link fs-16 fw-normal" data-bs-toggle="tab" href="#Members-mailbox1"
-                                                                                            role="tab">
+                                                                                        <a class="nav-link fs-16 fw-normal" data-bs-toggle="tab" href="#Members-mailbox1" role="tab">
                                                                                             Members
                                                                                         </a>
                                                                                     </li>
                                                                                     <li class="nav-item">
-                                                                                        <a class="nav-link fs-16 fw-normal" data-bs-toggle="tab" href="#Permissions-mailbox1"
-                                                                                            role="tab">
+                                                                                        <a class="nav-link fs-16 fw-normal" data-bs-toggle="tab" href="#Permissions-mailbox1" role="tab">
                                                                                             Permissions
                                                                                         </a>
                                                                                     </li>
-                                                                                </ul>
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link fs-16 fw-normal" data-bs-toggle="tab" href="#Blocked-address-mailbox1" role="tab">
+                                                                                            Blocked address
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link fs-16 fw-normal" data-bs-toggle="tab" href="#Additional-Settings-mailbox1" role="tab">
+                                                                                            Additional Settings
+                                                                                        </a>
+                                                                                    </li>
+                                                                                </ul> 
                                                                                 <!-- Tab panes -->
                                                                                 <div class="tab-content text-muted">
-                                                                                    <div class="tab-pane active" id="Basic-details-mailbox1" role="tabpanel"
-                                                                                        style="padding: 33px !important;">
+                                                                                    <div class="tab-pane active" id="Basic-details-mailbox1" role="tabpanel">
                                                                                         <div class="d-flex">
                                                                                             <div class="flex-grow-1 ms-2">
                                                                                                 <form action="javascript:void(0);">
@@ -2096,15 +2102,14 @@
                                                                                                                 <div class="alertss" role="">
                                                                                                                     <div class="d-flex justify-content-between">
                                                                                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                                                                            height="22" viewBox="0 0 18 22" fill="none">
+                                                                                                                            height="22" viewBox="0 0 18 22" fill="none" style="     margin: 11px 4px 0px 10px!important; ">
                                                                                                                             <path
                                                                                                                                 d="M5.25 20.75H12.75M9.76147 4.32354C10.6788 4.47948 11.5251 4.9164 12.1835 5.57396C12.8419 6.23153 13.2798 7.0773 13.4369 7.99446M4.37847 14.6574C3.48667 13.9608 2.76435 13.0712 2.26581 12.0554C1.76727 11.0396 1.50548 9.92393 1.50011 8.79237C1.47765 4.72715 4.755 1.34783 8.81916 1.25217C10.394 1.21425 11.9409 1.67317 13.2402 2.56384C14.5396 3.45451 15.5256 4.73169 16.0582 6.21424C16.5909 7.69678 16.6432 9.30941 16.2078 10.8234C15.7724 12.3373 14.8713 13.6758 13.6324 14.6488C13.3596 14.8602 13.1383 15.1309 12.9854 15.4404C12.8326 15.7499 12.7521 16.0901 12.75 16.4353L12.75 17.0001C12.75 17.199 12.671 17.3897 12.5303 17.5304C12.3897 17.671 12.1989 17.75 12 17.75H5.99999C5.80108 17.75 5.61031 17.671 5.46966 17.5304C5.32901 17.3897 5.24999 17.199 5.24999 17.0001L5.24998 16.4346C5.24912 16.0917 5.17021 15.7534 5.01921 15.4455C4.86822 15.1376 4.6491 14.868 4.37847 14.6574Z"
                                                                                                                                 stroke="#5E718D" stroke-width="1.5"
                                                                                                                                 stroke-linecap="round"
                                                                                                                                 stroke-linejoin="round" />
                                                                                                                         </svg>
-                                                                                                                        <p class="fs-14 fw-normal "> Color-coded labels aid in
-                                                                                                                            quickly distinguishing mailboxes within a view.</p>
+                                                                                                                        <p class="fs-14 fw-normal mt-2 " > Color-coded labels aid in quickly distinguishing mailboxes within a inbox.</p>
                                                                                                                     </div>
                                                                                                                 </div>
                                                         
@@ -2274,241 +2279,287 @@
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="tab-pane" id="Members-mailbox1" role="tabpanel">
-                                                                                        <div class="d-flex justify-content-center">
-                                                                                            <div class="cad">
-                                                                                                <div class=" text-center mt-5 mb-2">
-                                                                                                    <div class="position-relative d-inline-block ">
-                                                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="147" height="134"
-                                                                                                            viewBox="0 0 147 134" fill="none">
-                                                                                                            <g clip-path="url(#clip0_2434_12604)">
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M2.143 94.5372C-0.715003 92.8872 -0.715003 90.1872 2.143 88.5372L68.243 50.3742C71.101 48.7242 75.777 48.7242 78.635 50.3742L144.736 88.5372C147.594 90.1872 147.594 92.8872 144.736 94.5372L78.636 132.7C75.777 134.35 71.101 134.35 68.243 132.7L2.143 94.5372Z"
-                                                                                                                    fill="#EAF0F6" fill-opacity="0.75" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M94.611 80.4458C105.676 86.8358 105.676 97.2888 94.611 103.677C83.546 110.067 65.439 110.067 54.373 103.677C43.308 97.2888 43.308 86.8348 54.373 80.4468C65.439 74.0568 83.546 74.0558 94.611 80.4458Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M82.974 42.7708C77.476 43.8988 71.437 43.8948 65.944 42.7578L46.688 88.6808H46.695C47.784 85.6578 50.332 82.7808 54.374 80.4478C65.439 74.0578 83.546 74.0578 94.611 80.4478C97.513 82.1218 99.631 84.0798 101.011 86.1668L82.974 42.7708Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6864C102.088 27.0334 102.088 17.7814 92.296 12.1284C82.504 6.47542 66.481 6.47542 56.689 12.1284C46.897 17.7814 46.896 27.0334 56.689 32.6864C66.481 38.3394 82.504 38.3394 92.296 32.6864Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.338 30.0702C94.638 25.8562 94.638 18.9602 87.338 14.7452C80.038 10.5302 68.094 10.5302 60.794 14.7452C53.494 18.9592 53.494 25.8562 60.794 30.0702C68.094 34.2842 80.038 34.2842 87.338 30.0702Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6863C82.504 38.3393 66.481 38.3393 56.689 32.6863C51.793 29.8593 49.345 26.1332 49.345 22.4062V29.1093C49.345 32.8353 51.793 36.5613 56.689 39.3883C66.481 45.0413 82.504 45.0413 92.296 39.3883C97.192 36.5613 99.64 32.8352 99.64 29.1082V22.4073C99.64 26.1333 97.192 29.8593 92.296 32.6863Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M100.274 42.3972L104.261 36.0672L97.044 31.2492L97.033 31.2412L97.029 31.2392C96.548 30.9662 95.889 31.0062 95.162 31.4252C93.702 32.2682 92.508 34.3372 92.508 36.0232C92.508 36.8242 92.783 37.3912 93.223 37.6842L93.22 37.6902L93.276 37.7282L93.294 37.7392L100.274 42.3972Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path
-                                                                                                                    d="M119.293 42.3983L105.198 34.2303C104.453 33.7983 103.426 33.8563 102.294 34.5103C100.035 35.8133 98.187 39.0153 98.187 41.6233C98.187 42.9433 98.662 43.8643 99.422 44.2873L99.42 44.2913L113.599 52.4923"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M120.635 45.1152C120.635 42.5062 118.787 41.4392 116.528 42.7452C114.268 44.0482 112.42 47.2492 112.42 49.8582C112.42 52.4662 114.268 53.5342 116.528 52.2292C118.788 50.9252 120.635 47.7242 120.635 45.1152ZM74.333 12.0762C71.306 13.6842 68.51 15.7232 66.077 18.1382C63.147 21.0472 60.759 24.4882 59.013 28.2302C59.614 28.7262 60.284 29.2002 61.043 29.6382C64.073 31.3862 67.903 32.3872 71.855 32.6612C73.02 28.8402 74.748 25.2042 77.115 21.9912C79.36 18.9432 82.203 16.3032 85.436 14.3412C82.184 12.8652 78.268 12.1092 74.333 12.0762Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.55 15.4727C83.571 17.3457 80.307 20.5807 77.944 24.3027C76.275 26.9327 75.026 29.7927 74.017 32.7457C75.249 32.7477 76.479 32.6757 77.691 32.5377C79.451 29.5367 81.664 26.0167 83.658 23.7657C85.656 21.5107 88.033 19.5397 90.729 18.2207C89.945 17.2247 88.877 16.2987 87.55 15.4727Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6864C102.088 27.0334 102.088 17.7814 92.296 12.1284C82.504 6.47542 66.481 6.47542 56.689 12.1284C46.897 17.7814 46.896 27.0334 56.689 32.6864C66.481 38.3394 82.504 38.3394 92.296 32.6864Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6864C102.088 27.0334 102.088 17.7814 92.296 12.1284C82.504 6.47542 66.481 6.47542 56.689 12.1284C46.897 17.7814 46.896 27.0334 56.689 32.6864C66.481 38.3394 82.504 38.3394 92.296 32.6864Z"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.338 30.0702C94.638 25.8562 94.638 18.9602 87.338 14.7452C80.038 10.5302 68.094 10.5302 60.794 14.7452C53.494 18.9592 53.494 25.8562 60.794 30.0702C68.094 34.2842 80.038 34.2842 87.338 30.0702Z"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.338 30.0702C94.638 25.8562 94.638 18.9602 87.338 14.7452C80.038 10.5302 68.094 10.5302 60.794 14.7452C53.494 18.9592 53.494 25.8562 60.794 30.0702C68.094 34.2842 80.038 34.2842 87.338 30.0702Z"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6863C82.504 38.3393 66.481 38.3393 56.689 32.6863C51.793 29.8593 49.345 26.1332 49.345 22.4062V29.1093C49.345 32.8353 51.793 36.5613 56.689 39.3883C66.481 45.0413 82.504 45.0413 92.296 39.3883C97.192 36.5613 99.64 32.8352 99.64 29.1082V22.4073C99.64 26.1333 97.192 29.8593 92.296 32.6863Z"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6863C82.504 38.3393 66.481 38.3393 56.689 32.6863C51.793 29.8593 49.345 26.1332 49.345 22.4062V29.1093C49.345 32.8353 51.793 36.5613 56.689 39.3883C66.481 45.0413 82.504 45.0413 92.296 39.3883C97.192 36.5613 99.64 32.8352 99.64 29.1082V22.4073C99.64 26.1333 97.192 29.8593 92.296 32.6863Z"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M100.274 42.3972L104.261 36.0672L97.044 31.2492L97.033 31.2412L97.029 31.2392C96.548 30.9662 95.889 31.0062 95.162 31.4252C93.702 32.2682 92.508 34.3372 92.508 36.0232C92.508 36.8242 92.783 37.3912 93.223 37.6842L93.22 37.6902L93.276 37.7282L93.294 37.7392L100.274 42.3972Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M100.274 42.3972L104.261 36.0672L97.044 31.2492L97.033 31.2412L97.029 31.2392C96.548 30.9662 95.889 31.0062 95.162 31.4252C93.702 32.2682 92.508 34.3372 92.508 36.0232C92.508 36.8242 92.783 37.3912 93.223 37.6842L93.22 37.6902L93.276 37.7282L93.294 37.7392L100.274 42.3972Z"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M119.293 42.3983L105.198 34.2303C104.453 33.7983 103.426 33.8563 102.294 34.5103C100.035 35.8133 98.187 39.0153 98.187 41.6233C98.187 42.9433 98.662 43.8643 99.422 44.2873L99.42 44.2913L113.599 52.4923"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path
-                                                                                                                    d="M119.293 42.3983L105.198 34.2303C104.453 33.7983 103.426 33.8563 102.294 34.5103C100.035 35.8133 98.187 39.0153 98.187 41.6233C98.187 42.9433 98.662 43.8643 99.422 44.2873L99.42 44.2913L113.599 52.4923"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M120.635 45.1153C120.635 42.5063 118.787 41.4393 116.528 42.7453C114.268 44.0483 112.42 47.2493 112.42 49.8583C112.42 52.4663 114.268 53.5343 116.528 52.2293C118.788 50.9253 120.635 47.7243 120.635 45.1153Z"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M120.635 45.1153C120.635 42.5063 118.787 41.4393 116.528 42.7453C114.268 44.0483 112.42 47.2493 112.42 49.8583C112.42 52.4663 114.268 53.5343 116.528 52.2293C118.788 50.9253 120.635 47.7243 120.635 45.1153Z"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M74.333 12.0762C71.306 13.6842 68.51 15.7232 66.077 18.1382C63.147 21.0472 60.759 24.4882 59.013 28.2302C59.614 28.7262 60.284 29.2002 61.043 29.6382C64.073 31.3862 67.903 32.3872 71.855 32.6612C73.02 28.8402 74.748 25.2042 77.115 21.9912C79.36 18.9432 82.203 16.3032 85.436 14.3412C82.184 12.8652 78.268 12.1092 74.333 12.0762Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.55 15.4727C83.571 17.3457 80.307 20.5807 77.944 24.3027C76.275 26.9327 75.026 29.7927 74.017 32.7457C75.249 32.7477 76.479 32.6757 77.691 32.5377C79.451 29.5367 81.664 26.0167 83.658 23.7657C85.656 21.5107 88.033 19.5397 90.729 18.2207C89.945 17.2247 88.877 16.2987 87.55 15.4727Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path
-                                                                                                                    d="M101.012 86.1659L82.974 42.7699C77.475 43.8969 71.437 43.8929 65.943 42.7559L46.687 88.6789H46.694"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M94.611 80.4458C105.676 86.8358 105.676 97.2888 94.611 103.677C83.546 110.067 65.439 110.067 54.373 103.677C43.308 97.2888 43.308 86.8348 54.373 80.4468C65.439 74.0568 83.546 74.0558 94.611 80.4458Z"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path
-                                                                                                                    d="M121.68 10.236L109.778 14.597M115.666 23.734L110.427 21.264M119 25.306L118.247 24.95M106.763 7.402L105.96 9.106M109.781 1L107.971 4.84"
-                                                                                                                    stroke="#CBD6E5" stroke-width="2" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                            </g>
-                                                                                                            <defs>
-                                                                                                                <clipPath id="clip0_2434_12604">
-                                                                                                                    <rect width="147" height="134" fill="white" />
-                                                                                                                </clipPath>
-                                                                                                            </defs>
-                                                                                                        </svg>
+                                                                                        <div class="d-flex">
+                                                                                            <div class="flex-grow-1 ms-2">
+                                                                                                <form action="javascript:void(0);">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-lg-6">
+                                                                                                            <div class="mb-3">
+                                                                                                                <label for="newTeamName" class="form-label fs-14 fw-normal">Add members </label>
+                                                                                                                <div>
+                                                                                                                    <!-- <label for="newTeamName">New Team Name:</label> -->
+                                                                                                                    <input type="email" class="form-control" id="newTeamName" placeholder="Search by team or user name" required>
+                                                                                                                    <!-- <input type="text" id="newTeamName"> -->
+                                                                                                                    <button type="button" class="btn btn-secondary waves-effect waves-light fs-16 fw-normal"  onclick="addNewTeam()">Add </button>
+
+                                                                                                                    <!-- <button onclick="addNewTeam()">Add Team</button> -->
+                                                                                                                  </div>
+                                                                                                                  <label for="newTeamName" class="form-label fs-14 fw-normal mt-5">Teams having access to this mailbox (0) </label>
+                                                                                                                  
+                                                                                                                  <div id="team-container"></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <!--end col-->
+                                                                                                        <div class="col-lg-6">
+                                                                                                            <div class="mb-3">
+                                                                                                                    <h3 class=" fs-14 fw-normal">Teams members</h3>
+                                                                                                                <!-- <label for="emailInput" class="form-label">Teams members</label> -->
+                                                                                                                <div class="card" style="border-radius: 4px;width: 370px; height: 184px; flex-shrink: 0; background: rgba(61, 199, 137, 0.40);">
+                                                                                                                    <div class="container">
+                                                                                                                        <div class="row">
+                                                                                                                          <div class="col"style="border-radius: 4px;
+                                                                                                                          background: #FFF; gap: 10px;">
+                                                                                                                            Column
+                                                                                                                          </div>
+                                                                                                                          <div class="col" style="border-radius: 4px;
+                                                                                                                          background: #FFF; gap: 10px;">
+                                                                                                                            Column
+                                                                                                                          </div>
+                                                                                                                          <div class="col"style="border-radius: 4px;
+                                                                                                                          background: #FFF; gap: 10px;">
+                                                                                                                            Column
+                                                                                                                          </div>
+                                                                                                                          <div class="col"style="border-radius: 4px;
+                                                                                                                          background: #FFF; gap: 10px;">
+                                                                                                                            Column
+                                                                                                                          </div>
+                                                                                                                          <div class="col"style="border-radius: 4px;
+                                                                                                                          background: #FFF; gap: 10px;">
+                                                                                                                            Column
+                                                                                                                          </div>
+                                                                                                                        </div>
+                                                                                                                      </div>
+                                                                                                                </div>
+                                                                                                                <div class="card" style="width: 370px; height: 184px; flex-shrink: 0; border-radius: 4px; background: rgba(230, 101, 80, 0.40);">
+                                                                                                                    sdfsgh
+                                                                                                                </div>
+                                                                                                                <div class="card" style="border-radius: 4px;width: 370px; height: 112px; flex-shrink: 0; background: rgba(61, 199, 137, 0.40);">
+                                                                                                                    sdfsgh
+                                                                                                                </div>
+                                                                                                                <!-- <select class="form-select mb-3"
+                                                                                                                    aria-label="Default select example">
+                                                                                                                    <option selected>Select domain</option>
+                                                                                                                    <option value="1">One</option>
+                                                                                                                    <option value="2">Two</option>
+                                                                                                                    <option value="3">Three</option>
+                                                                                                                </select> -->
+                                                        
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        
+                                                                                                        <!--end col-->
+                                                                                                      
                                                                                                     </div>
-                                                                                                    <h5 class="mt-4 mb-4 fs-18 fw-normal fst-italic">No teams created yet, first
-                                                                                                        create a team by adding users in Users and Teams page.
-                                                                                                        Then you can add members to this mailbox.</h5>
-                                                                                                    <a href="url" class="fs-16 fw-normal">Go to Users and team</a>
-                                                                                                    <!-- <a href="http://">  <button type="button" class="btn btn-light  fs-16 fw-normal" data-bs-toggle="modal" data-bs-target=".bs-example-modal-lg"><i class="ri-add-fill"></i>Add mailbox</button></a> -->
-                                                        
-                                                                                                </div>
-                                                        
+                                                                                                    <!--end row-->
+                                                                                                </form>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="tab-pane" id="Permissions-mailbox1" role="tabpanel">
-                                                                                        <div class="d-flex justify-content-center">
-                                                                                            <div class="cad">
-                                                                                                <div class=" text-center mt-5 mb-2">
-                                                                                                    <div class="position-relative d-inline-block ">
-                                                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="147" height="134"
-                                                                                                            viewBox="0 0 147 134" fill="none">
-                                                                                                            <g clip-path="url(#clip0_2434_12604)">
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M2.143 94.5372C-0.715003 92.8872 -0.715003 90.1872 2.143 88.5372L68.243 50.3742C71.101 48.7242 75.777 48.7242 78.635 50.3742L144.736 88.5372C147.594 90.1872 147.594 92.8872 144.736 94.5372L78.636 132.7C75.777 134.35 71.101 134.35 68.243 132.7L2.143 94.5372Z"
-                                                                                                                    fill="#EAF0F6" fill-opacity="0.75" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M94.611 80.4458C105.676 86.8358 105.676 97.2888 94.611 103.677C83.546 110.067 65.439 110.067 54.373 103.677C43.308 97.2888 43.308 86.8348 54.373 80.4468C65.439 74.0568 83.546 74.0558 94.611 80.4458Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M82.974 42.7708C77.476 43.8988 71.437 43.8948 65.944 42.7578L46.688 88.6808H46.695C47.784 85.6578 50.332 82.7808 54.374 80.4478C65.439 74.0578 83.546 74.0578 94.611 80.4478C97.513 82.1218 99.631 84.0798 101.011 86.1668L82.974 42.7708Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6864C102.088 27.0334 102.088 17.7814 92.296 12.1284C82.504 6.47542 66.481 6.47542 56.689 12.1284C46.897 17.7814 46.896 27.0334 56.689 32.6864C66.481 38.3394 82.504 38.3394 92.296 32.6864Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.338 30.0702C94.638 25.8562 94.638 18.9602 87.338 14.7452C80.038 10.5302 68.094 10.5302 60.794 14.7452C53.494 18.9592 53.494 25.8562 60.794 30.0702C68.094 34.2842 80.038 34.2842 87.338 30.0702Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6863C82.504 38.3393 66.481 38.3393 56.689 32.6863C51.793 29.8593 49.345 26.1332 49.345 22.4062V29.1093C49.345 32.8353 51.793 36.5613 56.689 39.3883C66.481 45.0413 82.504 45.0413 92.296 39.3883C97.192 36.5613 99.64 32.8352 99.64 29.1082V22.4073C99.64 26.1333 97.192 29.8593 92.296 32.6863Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M100.274 42.3972L104.261 36.0672L97.044 31.2492L97.033 31.2412L97.029 31.2392C96.548 30.9662 95.889 31.0062 95.162 31.4252C93.702 32.2682 92.508 34.3372 92.508 36.0232C92.508 36.8242 92.783 37.3912 93.223 37.6842L93.22 37.6902L93.276 37.7282L93.294 37.7392L100.274 42.3972Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path
-                                                                                                                    d="M119.293 42.3983L105.198 34.2303C104.453 33.7983 103.426 33.8563 102.294 34.5103C100.035 35.8133 98.187 39.0153 98.187 41.6233C98.187 42.9433 98.662 43.8643 99.422 44.2873L99.42 44.2913L113.599 52.4923"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M120.635 45.1152C120.635 42.5062 118.787 41.4392 116.528 42.7452C114.268 44.0482 112.42 47.2492 112.42 49.8582C112.42 52.4662 114.268 53.5342 116.528 52.2292C118.788 50.9252 120.635 47.7242 120.635 45.1152ZM74.333 12.0762C71.306 13.6842 68.51 15.7232 66.077 18.1382C63.147 21.0472 60.759 24.4882 59.013 28.2302C59.614 28.7262 60.284 29.2002 61.043 29.6382C64.073 31.3862 67.903 32.3872 71.855 32.6612C73.02 28.8402 74.748 25.2042 77.115 21.9912C79.36 18.9432 82.203 16.3032 85.436 14.3412C82.184 12.8652 78.268 12.1092 74.333 12.0762Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.55 15.4727C83.571 17.3457 80.307 20.5807 77.944 24.3027C76.275 26.9327 75.026 29.7927 74.017 32.7457C75.249 32.7477 76.479 32.6757 77.691 32.5377C79.451 29.5367 81.664 26.0167 83.658 23.7657C85.656 21.5107 88.033 19.5397 90.729 18.2207C89.945 17.2247 88.877 16.2987 87.55 15.4727Z"
-                                                                                                                    stroke="#CBD6E5" stroke-width="5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6864C102.088 27.0334 102.088 17.7814 92.296 12.1284C82.504 6.47542 66.481 6.47542 56.689 12.1284C46.897 17.7814 46.896 27.0334 56.689 32.6864C66.481 38.3394 82.504 38.3394 92.296 32.6864Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6864C102.088 27.0334 102.088 17.7814 92.296 12.1284C82.504 6.47542 66.481 6.47542 56.689 12.1284C46.897 17.7814 46.896 27.0334 56.689 32.6864C66.481 38.3394 82.504 38.3394 92.296 32.6864Z"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.338 30.0702C94.638 25.8562 94.638 18.9602 87.338 14.7452C80.038 10.5302 68.094 10.5302 60.794 14.7452C53.494 18.9592 53.494 25.8562 60.794 30.0702C68.094 34.2842 80.038 34.2842 87.338 30.0702Z"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.338 30.0702C94.638 25.8562 94.638 18.9602 87.338 14.7452C80.038 10.5302 68.094 10.5302 60.794 14.7452C53.494 18.9592 53.494 25.8562 60.794 30.0702C68.094 34.2842 80.038 34.2842 87.338 30.0702Z"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6863C82.504 38.3393 66.481 38.3393 56.689 32.6863C51.793 29.8593 49.345 26.1332 49.345 22.4062V29.1093C49.345 32.8353 51.793 36.5613 56.689 39.3883C66.481 45.0413 82.504 45.0413 92.296 39.3883C97.192 36.5613 99.64 32.8352 99.64 29.1082V22.4073C99.64 26.1333 97.192 29.8593 92.296 32.6863Z"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M92.296 32.6863C82.504 38.3393 66.481 38.3393 56.689 32.6863C51.793 29.8593 49.345 26.1332 49.345 22.4062V29.1093C49.345 32.8353 51.793 36.5613 56.689 39.3883C66.481 45.0413 82.504 45.0413 92.296 39.3883C97.192 36.5613 99.64 32.8352 99.64 29.1082V22.4073C99.64 26.1333 97.192 29.8593 92.296 32.6863Z"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M100.274 42.3972L104.261 36.0672L97.044 31.2492L97.033 31.2412L97.029 31.2392C96.548 30.9662 95.889 31.0062 95.162 31.4252C93.702 32.2682 92.508 34.3372 92.508 36.0232C92.508 36.8242 92.783 37.3912 93.223 37.6842L93.22 37.6902L93.276 37.7282L93.294 37.7392L100.274 42.3972Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M100.274 42.3972L104.261 36.0672L97.044 31.2492L97.033 31.2412L97.029 31.2392C96.548 30.9662 95.889 31.0062 95.162 31.4252C93.702 32.2682 92.508 34.3372 92.508 36.0232C92.508 36.8242 92.783 37.3912 93.223 37.6842L93.22 37.6902L93.276 37.7282L93.294 37.7392L100.274 42.3972Z"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M119.293 42.3983L105.198 34.2303C104.453 33.7983 103.426 33.8563 102.294 34.5103C100.035 35.8133 98.187 39.0153 98.187 41.6233C98.187 42.9433 98.662 43.8643 99.422 44.2873L99.42 44.2913L113.599 52.4923"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path
-                                                                                                                    d="M119.293 42.3983L105.198 34.2303C104.453 33.7983 103.426 33.8563 102.294 34.5103C100.035 35.8133 98.187 39.0153 98.187 41.6233C98.187 42.9433 98.662 43.8643 99.422 44.2873L99.42 44.2913L113.599 52.4923"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M120.635 45.1153C120.635 42.5063 118.787 41.4393 116.528 42.7453C114.268 44.0483 112.42 47.2493 112.42 49.8583C112.42 52.4663 114.268 53.5343 116.528 52.2293C118.788 50.9253 120.635 47.7243 120.635 45.1153Z"
-                                                                                                                    fill="#F2F5F8" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M120.635 45.1153C120.635 42.5063 118.787 41.4393 116.528 42.7453C114.268 44.0483 112.42 47.2493 112.42 49.8583C112.42 52.4663 114.268 53.5343 116.528 52.2293C118.788 50.9253 120.635 47.7243 120.635 45.1153Z"
-                                                                                                                    stroke="#CBD6E5" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M74.333 12.0762C71.306 13.6842 68.51 15.7232 66.077 18.1382C63.147 21.0472 60.759 24.4882 59.013 28.2302C59.614 28.7262 60.284 29.2002 61.043 29.6382C64.073 31.3862 67.903 32.3872 71.855 32.6612C73.02 28.8402 74.748 25.2042 77.115 21.9912C79.36 18.9432 82.203 16.3032 85.436 14.3412C82.184 12.8652 78.268 12.1092 74.333 12.0762Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M87.55 15.4727C83.571 17.3457 80.307 20.5807 77.944 24.3027C76.275 26.9327 75.026 29.7927 74.017 32.7457C75.249 32.7477 76.479 32.6757 77.691 32.5377C79.451 29.5367 81.664 26.0167 83.658 23.7657C85.656 21.5107 88.033 19.5397 90.729 18.2207C89.945 17.2247 88.877 16.2987 87.55 15.4727Z"
-                                                                                                                    fill="white" />
-                                                                                                                <path
-                                                                                                                    d="M101.012 86.1659L82.974 42.7699C77.475 43.8969 71.437 43.8929 65.943 42.7559L46.687 88.6789H46.694"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                                                                    d="M94.611 80.4458C105.676 86.8358 105.676 97.2888 94.611 103.677C83.546 110.067 65.439 110.067 54.373 103.677C43.308 97.2888 43.308 86.8348 54.373 80.4468C65.439 74.0568 83.546 74.0558 94.611 80.4458Z"
-                                                                                                                    stroke="#CBD6E5" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                                <path
-                                                                                                                    d="M121.68 10.236L109.778 14.597M115.666 23.734L110.427 21.264M119 25.306L118.247 24.95M106.763 7.402L105.96 9.106M109.781 1L107.971 4.84"
-                                                                                                                    stroke="#CBD6E5" stroke-width="2" stroke-linecap="round"
-                                                                                                                    stroke-linejoin="round" />
-                                                                                                            </g>
-                                                                                                            <defs>
-                                                                                                                <clipPath id="clip0_2434_12604">
-                                                                                                                    <rect width="147" height="134" fill="white" />
-                                                                                                                </clipPath>
-                                                                                                            </defs>
-                                                                                                        </svg>
+                                                                                        <div class="d-flex ">
+                                                                                           <div class="col-xl-12">
+                                                                                            <!-- Accordions Bordered -->
+                                                                                                <div class="accordion custom-accordionwithicon custom-accordion-border accordion-border-box accordion-secondary" id="accordionBordered">
+                                                                                                    <div class="accordion-item">
+                                                                                                        <h2 class="accordion-header" id="accordionborderedExample1">
+                                                                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accor_borderedExamplecollapse1" aria-expanded="true" aria-controls="accor_borderedExamplecollapse1" style="color: var(--neutrals-2, #71717A); font-family: DM Sans; font-size: 18px; font-style: normal; font-weight: 500; line-height: 120%; /* 21.6px */">
+                                                                                                                Read and manage permissions (0)
+                                                                                                            </button>
+                                                                                                        </h2>
+                                                                                                        <div id="accor_borderedExamplecollapse1" class="accordion-collapse collapse show" aria-labelledby="accordionborderedExample1" data-bs-parent="#accordionBordered">
+                                                                                                            <div class="accordion-body">
+                                                                                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua nulla assumenda shoreditch et.
+                                                                                                            </div>
+                                                                                                        </div>
                                                                                                     </div>
-                                                                                                    <h5 class="mt-4 mb-4 fs-18 fw-normal fst-italic">No teams created yet, first
-                                                                                                        create a team by adding users in Users and Teams page.</h5>
-                                                                                                    <a href="#" class="fs-16 fw-normal">Go to Users and team</a>
-                                                                                                    <!-- <a href="http://">  <button type="button" class="btn btn-light  fs-16 fw-normal" data-bs-toggle="modal" data-bs-target=".bs-example-modal-lg"><i class="ri-add-fill"></i>Add mailbox</button></a> -->
-                                                        
+                                                                                                    <div class="accordion-item mt-2">
+                                                                                                        <h2 class="accordion-header" id="accordionborderedExample2">
+                                                                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accor_borderedExamplecollapse2" aria-expanded="false" aria-controls="accor_borderedExamplecollapse2" style="color: var(--neutrals-2, #71717A); font-family: DM Sans; font-size: 18px; font-style: normal; font-weight: 500; line-height: 120%; /* 21.6px */">
+                                                                                                                Send permissions (0)
+                                                                                                            </button>
+                                                                                                        </h2>
+                                                                                                        <div id="accor_borderedExamplecollapse2" class="accordion-collapse collapse" aria-labelledby="accordionborderedExample2" data-bs-parent="#accordionBordered">
+                                                                                                            <div class="accordion-body">
+                                                                                                               <div class="row">
+                                                                                                                <div class="col-xl-7">
+                                                                                                                    <p class="fs-12 fw-normal">The send as permission allows a delegate to send email from this mailbox. 
+                                                                                                                        The message will appear to have been sent by the mailbox owner. </p>
+                                                                                                                        <div class="row">
+                                                                                                                            <div class="col-lg-9 col-auto">
+                                                                                                                                <div class="search-box">
+                                                                                                                                    <input type="text" class="form-control search" id="search-task-options" placeholder="Search by user name">
+                                                                                                                                    <i class="ri-search-line search-icon"></i>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div class="col-lg-3 col-auto">
+                                                                                                                                <button type="button" class="btn btn-secondary waves-effect waves-light fs-14 fw-normal mt-1">Add</button>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                </div>
+                                                                                                               <div class="col-xl-5">
+                                                                                                                    <div class="card" style=" border-radius: 4px;
+                                                                                                                    border: 1px solid var(--neutrals-4, #E4E4E7); height: 124px; !important">
+                                                                                                                            No users added yet
+                                                                                                                    </div>
+                                                                                                               </div>
+                                                                                                               </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="accordion-item mt-2">
+                                                                                                        <h2 class="accordion-header" id="accordionborderedExample3">
+                                                                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accor_borderedExamplecollapse3" aria-expanded="false" aria-controls="accor_borderedExamplecollapse3" style="color: var(--neutrals-2, #71717A); font-family: DM Sans; font-size: 18px; font-style: normal; font-weight: 500; line-height: 120%; /* 21.6px */">
+                                                                                                                Send permissions (0)
+                                                                                                            </button>
+                                                                                                        </h2>
+                                                                                                        <div id="accor_borderedExamplecollapse3" class="accordion-collapse collapse" aria-labelledby="accordionborderedExample3" data-bs-parent="#accordionBordered">
+                                                                                                            <div class="accordion-body">
+                                                                                                                <div class="row">
+                                                                                                                    <div class="col-xl-6">
+                                                                                                                        <p class="fs-12 fw-normal">The send on behalf permission allows a delegate to send email on 
+                                                                                                                            behalf of this mailbox. The From line in any message sent by a delegate
+                                                                                                                            indicates that the message was sent by the delegate on behalf of the
+                                                                                                                            mailbox owner. </p>
+                                                                                                                            <div class="row">
+                                                                                                                                <div class="col-lg-9 col-auto">
+                                                                                                                                    <div class="search-box">
+                                                                                                                                        <input type="text" class="form-control search" id="search-task-options" placeholder="Search by user name">
+                                                                                                                                        <i class="ri-search-line search-icon"></i>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="col-lg-3 col-auto">
+                                                                                                                                    <button type="button" class="btn btn-secondary waves-effect waves-light fs-14 fw-normal mt-1">Add</button>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="col-xl-6">
+                                                                                                                            <div class="card" style=" border-radius: 4px;
+                                                                                                                            border: 1px solid var(--neutrals-4, #E4E4E7); height: 124px; !important">
+                                                                                                                                    No users added yet
+                                                                                                                            </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
                                                                                                 </div>
-                                                        
+                                                                                           </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="tab-pane" id="Blocked-address-mailbox1" role="tabpanel">
+                                                                                        <div class="d-flex justify-content-space-between">
+                                                                                            <div class="flex-grow-1 overflow-hidden">
+                                                                                               <h2 class="fs-16 fw-normal mb-3">Messages from these blocked addresses will appear in Spam:</h2>
+                                                                                               <hr>
+                                                                                               <div class="row d-flex justify-content-space-between" style="margin: 10px;">
+                                                                                                <div class="form-check">
+                                                                                                    <input class="form-check-input" type="checkbox" id="formCheck2" checked="">
+                                                                                                    <label class="form-check-label" for="formCheck2">
+                                                                                                        Salvin Infosystems Bangalore <a href="http://">hr@salvinmail.com</a>
+                                                                                                    </label>
+                                                                                                    
+                                                                                                </div>
+                                                                                               <!-- <div>
+                                                                                                <a href="http://"><button type="button" class="btn btn-ghost-light waves-effect waves-light mb-5 fs-14 fw-normal " >
+                                                                                                    Unblock </button></a>
+                                                                                               </div> -->
+                                                                                               <hr>
+                                                                                               <div class="form-check">
+                                                                                                <input class="form-check-input" type="checkbox" id="formCheck2" checked="">
+                                                                                                <label class="form-check-label" for="formCheck2">
+                                                                                                    Salvin Infosystems Bangalore <a href="http://">hr@salvinmail.com</a>
+                                                                                                </label>
+                                                                                                
+                                                                                            </div>
+                                                                                            <hr>
+                                                                                            <div class="form-check">
+                                                                                                <input class="form-check-input" type="checkbox" id="formCheck2" checked="">
+                                                                                                <label class="form-check-label" for="formCheck2">
+                                                                                                    Salvin Infosystems Bangalore <a href="http://">hr@salvinmail.com</a>
+                                                                                                </label>
+                                                                                                
+                                                                                            </div>
+                                                                                               </div>
+                                                                                              
+                                                                                            </div>
+                                                                                           
+                                                                                            <div class="flex-shrink-0">
+                                                                                                <button type="button" class="btn btn-outline-secondary waves-effect waves-light mb-5 fs-14 fw-normal "  style="border-radius: 4px;  border: 1px solid rgba(94, 94, 94, 0.24);
+                                                                                                background: #D9D9D9;">Unblock selected addresses</button>
+                                                                                               
+                                                                                               
+                                                                                             
+                                                                                            </div>
+                                                                                            <hr>
+                                                                                            
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="tab-pane" id="Additional-Settings-mailbox1" role="tabpanel">
+                                                                                        <div class="row d-flex justify-content-space-between">
+                                                                                            <div class="flex-grow-1 overflow-hidden mt-3">
+                                                                                                <h2 class="fs-16 fw-normal">Mark as read</h2>
+                                                                                                <div class="form-check">
+                                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                                                                        Mark conversation as read when mail opened by any team member.
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                                <!-- <div class="form-check">
+                                                                                                    <input class="form-check-input" type="checkbox" id="formCheck2" checked="">
+                                                                                                    <label class="form-check-label" for="formCheck2">
+                                                                                                        Mark conversation as read when mail opened by any team member.
+                                                                                                    </label>
+                                                                                                </div> -->
+                                                                                                <div class="form-check">
+                                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                                                                        Leave conversation unread when opened by others.
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                                <!-- <div class="form-check">
+                                                                                                    <input class="form-check-input" type="checkbox" id="formCheck2" checked="">
+                                                                                                    <label class="form-check-label" for="formCheck2">
+                                                                                                        Leave conversation unread when opened by others.
+                                                                                                    </label>
+                                                                                                </div>   -->
+                                                                                            </div>
+                                                                                            
+                                                                                            <div class="flex-shrink-0">
+                                                                                                <!-- <button type="button" class="btn btn-outline-secondary waves-effect waves-light fs-14 fw-normal "  style="border-radius: 4px;  border: 1px solid rgba(94, 94, 94, 0.24);
+                                                                                                background: #D9D9D9;">Unblock selected addresses</button> -->
+                                                                                                
+                                                                                            </div>
+                                                                                            <div class="flex-grow-1 overflow-hidden mt-3">
+                                                                                                <h2 class="fs-16 fw-normal">Sender information</h2>
+                                                                                                <div class="form-check">
+                                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                                                                        Show the member info who sends and replies from the mail.
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                                <div class="form-check">
+                                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                                                                        Don’t show the member info who sends and replies from the mail.
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                                <!-- <div class="form-check">
+                                                                                                    <input class="form-check-input" type="checkbox" id="formCheck2" checked="">
+                                                                                                    <label class="form-check-label" for="formCheck2">
+                                                                                                        Show the member info who sends and replies from the mail.
+                                                                                                    </label>
+                                                                                                </div> -->
+                                                                                                <!-- <div class="form-check">
+                                                                                                    <input class="form-check-input" type="checkbox" id="formCheck2" checked="">
+                                                                                                    <label class="form-check-label" for="formCheck2">
+                                                                                                        Don’t show the member info who sends and replies from the mail.
+                                                                                                    </label>
+                                                                                                </div>   -->
+                                                                                            </div>
+                                                                                            <div class="flex-shrink-0 ">
+                                                                                                <!-- <button type="button" class="btn btn-outline-secondary waves-effect waves-light fs-14 fw-normal "  style="border-radius: 4px;  border: 1px solid rgba(94, 94, 94, 0.24);
+                                                                                                background: #D9D9D9;">Unblock selected addresses</button> -->
+                                                                                                
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -3843,7 +3894,84 @@
 
     <script src="assets/js/pages/form-file-upload.init.js"></script>
     <!-- filepond js -->
-
+    <script>
+        function addNewTeam() {
+          var teamName = document.getElementById("newTeamName").value;
+          if (teamName.trim() === "") {
+            alert("Please enter a valid team name.");
+            return;
+          }
+      
+          var teamContainer = document.getElementById("team-container");
+          var teamDiv = document.createElement("div");
+          teamDiv.className = "team";
+          teamDiv.innerHTML = "<h3>" + teamName + "</h3>";
+          
+          var membersDiv = document.createElement("div");
+          membersDiv.id = teamName + "-members";
+          teamDiv.appendChild(membersDiv);
+      
+          var removeButton = document.createElement("button");
+          removeButton.textContent = "X";
+          removeButton.onclick = function() {
+            teamContainer.removeChild(teamDiv);
+          };
+          teamDiv.appendChild(removeButton);
+      
+          teamContainer.appendChild(teamDiv);
+        }
+      
+        function addMember(teamName) {
+          var memberName = prompt("Enter member name:");
+          if (memberName.trim() === "") {
+            alert("Please enter a valid member name.");
+            return;
+          }
+      
+          var membersDiv = document.getElementById(teamName + "-members");
+          var memberCard = document.createElement("div");
+          memberCard.className = "member-card";
+          memberCard.textContent = memberName;
+      
+          var removeMemberButton = document.createElement("button");
+          removeMemberButton.textContent = "Remove Member";
+          removeMemberButton.onclick = function() {
+            membersDiv.removeChild(memberCard);
+          };
+          memberCard.appendChild(removeMemberButton);
+      
+          membersDiv.appendChild(memberCard);
+        }
+      </script>
+        <style>
+            /* body {
+              font-family: Arial, sans-serif;
+              margin: 20px;
+            } */
+        
+            #team-container {
+              display: flex;
+              flex-wrap: wrap;
+            }
+        
+            .team {
+              border: 1px solid #1f1f1f;
+              padding: 10px;
+              margin: 10px;
+              width: 50% !important;
+              height: 80px !important;
+            }
+        
+            .member-card {
+              border: 1px solid #eee;
+              padding: 5px;
+              margin: 5px;
+            }
+        
+            button {
+              margin-top: 10px;
+            }
+          </style>
 </body>
 
 </html>
