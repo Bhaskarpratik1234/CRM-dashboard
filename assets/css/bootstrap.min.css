@@ -5118,7 +5118,7 @@ fieldset:disabled .btn {
   border-radius: var(--vz-breadcrumb-border-radius);
 }
 .breadcrumb-item + .breadcrumb-item {
-  padding-left: var(--vz-breadcrumb-item-padding-x);
+  /* padding-left: var(--vz-breadcrumb-item-padding-x); */
 }
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
