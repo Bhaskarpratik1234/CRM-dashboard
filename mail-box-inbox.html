@@ -10,7 +10,10 @@
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png">
-
+    <!-- quill css -->
+    <link href="assets/libs/quill/quill.core.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/quill/quill.bubble.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/quill/quill.snow.css" rel="stylesheet" type="text/css" />
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="assets/images/favicon.png">
      <!-- dropzone css -->
@@ -1907,6 +1910,25 @@
                                                                 data-choices-removeItem placeholder="Bcc recipients">
                                                         </div>
                                                     </div>
+                                                    <div class="snow-editor" style="height: 300px;">
+                                                        <h3><span class="ql-size-large">Hello World!</span></h3>
+                                                        <p><br></p>
+                                                        <h3>This is an simple editable area.</h3>
+                                                        <p><br></p>
+                                                        <ul>
+                                                            <li>
+                                                                Select a text to reveal the toolbar.
+                                                            </li>
+                                                            <li>
+                                                                Edit rich document on-the-fly, so elastic!
+                                                            </li>
+                                                        </ul>
+                                                        <p><br></p>
+                                                        <p>
+                                                            End of simple area
+                                                        </p>
+                
+                                                    </div> <!-- end Snow-editor-->
                                                     <!-- <label for="exampleFormControlTextarea1" class="form-label">Reply :</label> -->
                                                     <textarea class="form-control border-bottom-0 rounded-top rounded-0 border" id="exampleFormControlTextarea1"
                                                         rows="12" placeholder="Enter message"></textarea>
@@ -2029,6 +2051,7 @@
                         <input type="text" class="form-control" placeholder="Subject">
                     </div>
                     <div class="ck-editor-reverse">
+                        
                         <div id="email-editor"></div>
                     </div>
 
@@ -2186,8 +2209,14 @@
 <script src="assets/libs/filepond-plugin-file-encode/filepond-plugin-file-encode.min.js"></script>
 <script src="assets/js/pages/form-file-upload.init.js"></script>
 
-<!--ckeditor js-->
+<!-- ckeditor -->
 <script src="assets/libs/%40ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+
+<!-- quill js -->
+<script src="assets/libs/quill/quill.min.js"></script>
+
+<!-- init js -->
+<script src="assets/js/pages/form-editor.init.js"></script>
 
 <!-- mailbox init -->
 <script src="assets/js/pages/mailbox.init.js"></script>
