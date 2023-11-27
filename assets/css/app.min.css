@@ -1260,7 +1260,7 @@
   .nav-item:hover
   > a.menu-link {
   position: relative;
-  width: calc(200px + var(--vz-vertical-menu-width-sm));
+  width: calc(120px + var(--vz-vertical-menu-width-sm));
   -webkit-transition: none;
   transition: none;
   background: var(--vz-vertical-menu-bg);
@@ -1280,7 +1280,7 @@
   > a.menu-link
   span {
   display: inline-block;
-  padding-left: 35px;
+  padding-left: 24px;
 }
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"]
   .navbar-menu
@@ -1308,7 +1308,7 @@
   display: block;
   left: var(--vz-vertical-menu-width-sm);
   position: absolute;
-  width: 200px;
+  width: 120px;
   background: var(--vz-vertical-menu-bg);
   height: auto !important;
   padding: 0.5rem 0;
