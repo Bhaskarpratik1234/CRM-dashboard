@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
+    data-sidebar-image="none" data-preloader="disable">
+
 <head>
 
     <meta charset="utf-8" />
@@ -887,31 +889,36 @@
             </div>
         </header>
 
-<!-- removeNotificationModal -->
-<div id="removeNotificationModal" class="modal fade zoomIn" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="NotificationModalbtn-close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="mt-2 text-center">
-                    <lord-icon src="../../../../external.html?link=https://cdn.lordicon.com/gsqxdxog.json" trigger="loop" colors="primary:#f7b84b,secondary:#f06548" style="width:100px;height:100px"></lord-icon>
-                    <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
-                        <h4>Are you sure ?</h4>
-                        <p class="text-muted mx-4 mb-0">Are you sure you want to remove this Notification ?</p>
+        <!-- removeNotificationModal -->
+        <div id="removeNotificationModal" class="modal fade zoomIn" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            id="NotificationModalbtn-close"></button>
                     </div>
-                </div>
-                <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
-                    <button type="button" class="btn w-sm btn-light" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn w-sm btn-danger" id="delete-notification">Yes, Delete It!</button>
-                </div>
-            </div>
+                    <div class="modal-body">
+                        <div class="mt-2 text-center">
+                            <lord-icon src="../../../../external.html?link=https://cdn.lordicon.com/gsqxdxog.json"
+                                trigger="loop" colors="primary:#f7b84b,secondary:#f06548"
+                                style="width:100px;height:100px"></lord-icon>
+                            <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
+                                <h4>Are you sure ?</h4>
+                                <p class="text-muted mx-4 mb-0">Are you sure you want to remove this Notification ?</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
+                            <button type="button" class="btn w-sm btn-light" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn w-sm btn-danger" id="delete-notification">Yes, Delete
+                                It!</button>
+                        </div>
+                    </div>
 
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
         <!-- ========== App Menu ========== -->
+
         <div class="app-menu navbar-menu">
             <!-- LOGO -->
             <div class="navbar-brand-box">
@@ -933,10 +940,13 @@
                         <img src="assets/images/logo-light.svg" alt="" height="17">
                     </span>
                 </a>
-                <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
+                <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover"
+                    id="vertical-hover">
                     <i class="ri-record-circle-line"></i>
                 </button>
             </div>
+
+            
 
             <div id="scrollbar">
                 <div class="container-fluid">
@@ -973,9 +983,9 @@
 
                         </li>
 
-                        <li class="nav-item" style="">
+                        <li class="nav-item hassubmenu" style="" >
                             <a class="nav-link menu-link" href="#sidebarLayouts" data-bs-toggle="collapse" role="button"
-                                aria-expanded="false" aria-controls="sidebarLayouts">
+                            aria-expanded="false" aria-controls="sidebarLayouts">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
                                     fill="none">
                                     <path
@@ -983,7 +993,7 @@
                                         fill="white" />
                                 </svg> <span data-key="t-layouts" class=" fs-16 fw-normal mlt-23">Clients</span>
                             </a>
-                            <div class="collapse menu-dropdown" id="sidebarLayouts">
+                            <div class="collapse menu-dropdown destopHoverSate" id="sidebarLayouts">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
                                         <a href="Companies.html" target="_blank" class="nav-link"
@@ -997,7 +1007,7 @@
                             </div>
 
                         </li> <!-- end Dashboard Menu -->
-                        <li class="nav-item">
+                        <li class="nav-item hassubmenu">
                             <a class="nav-link menu-link" href="#sidebarUI" data-bs-toggle="collapse" role="button"
                                 aria-expanded="false" aria-controls="sidebarUI">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20"
@@ -1198,7 +1208,7 @@
                             </a>
 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item hassubmenu">
                             <a class="nav-link menu-link" href="#sidebarAdvanceUI" data-bs-toggle="collapse"
                                 role="button" aria-expanded="false" aria-controls="sidebarAdvanceUI">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"
@@ -1284,7 +1294,7 @@
                             </a>
 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item hassubmenu">
                             <a class="nav-link menu-link" style=" padding: 80px 31px 0px 21px !important;    "
                                 href="#sidebarAdvanceUI" data-bs-toggle="collapse" role="button" aria-expanded="false"
                                 aria-controls="sidebarAdvanceUI">
@@ -1495,25 +1505,37 @@
                                     <div class="row g-4 align-items-center">
                                         <div class="col-sm-3">
                                             <div class="search-box">
-                                                <input type="text" class="form-control search" placeholder="Search for...">
+                                                <input type="text" class="form-control search"
+                                                    placeholder="Search for...">
                                                 <i class="ri-search-line search-icon"></i>
                                             </div>
                                         </div>
                                         <div class="col-sm-auto ms-auto">
                                             <div class="hstack gap-2">
-                                                <button class="btn btn-soft-danger" id="remove-actions" onClick="deleteMultiple()"><i class="ri-delete-bin-2-line"></i></button>
-                                                <button type="button" class="btn btn-info" data-bs-toggle="offcanvas" href="#offcanvasExample"><i class="ri-filter-3-line align-bottom me-1"></i> Fliters</button>
-                                                <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal" id="create-btn" data-bs-target="#showModal"><i class="ri-add-line align-bottom me-1"></i> Add Leads</button>
+                                                <button class="btn btn-soft-danger" id="remove-actions"
+                                                    onClick="deleteMultiple()"><i
+                                                        class="ri-delete-bin-2-line"></i></button>
+                                                <button type="button" class="btn btn-info" data-bs-toggle="offcanvas"
+                                                    href="#offcanvasExample"><i
+                                                        class="ri-filter-3-line align-bottom me-1"></i> Fliters</button>
+                                                <button type="button" class="btn btn-success add-btn"
+                                                    data-bs-toggle="modal" id="create-btn"
+                                                    data-bs-target="#showModal"><i
+                                                        class="ri-add-line align-bottom me-1"></i> Add Leads</button>
                                                 <span class="dropdown">
-                                                    <button class="btn btn-soft-info btn-icon fs-14" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <button class="btn btn-soft-info btn-icon fs-14" type="button"
+                                                        id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                        aria-expanded="false">
                                                         <i class="ri-settings-4-line"></i>
                                                     </button>
                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                                         <li><a class="dropdown-item" href="#">Copy</a></li>
                                                         <li><a class="dropdown-item" href="#">Move to pipline</a></li>
                                                         <li><a class="dropdown-item" href="#">Add to exceptions</a></li>
-                                                        <li><a class="dropdown-item" href="#">Switch to common form view</a></li>
-                                                        <li><a class="dropdown-item" href="#">Reset form view to default</a></li>
+                                                        <li><a class="dropdown-item" href="#">Switch to common form
+                                                                view</a></li>
+                                                        <li><a class="dropdown-item" href="#">Reset form view to
+                                                                default</a></li>
                                                     </ul>
                                                 </span>
                                             </div>
@@ -1528,7 +1550,8 @@
                                                     <tr>
                                                         <th scope="col" style="width: 50px;">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="checkAll" value="option">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="checkAll" value="option">
                                                             </div>
                                                         </th>
 
@@ -1546,10 +1569,13 @@
                                                     <tr>
                                                         <th scope="row">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" name="chk_child" value="option1">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="chk_child" value="option1">
                                                             </div>
                                                         </th>
-                                                        <td class="id" style="display:none;"><a href="javascript:void(0);" class="fw-medium link-primary">#VZ2101</a></td>
+                                                        <td class="id" style="display:none;"><a
+                                                                href="javascript:void(0);"
+                                                                class="fw-medium link-primary">#VZ2101</a></td>
                                                         <td>
                                                             <div class="d-flex align-items-center">
                                                                 <!-- <div class="flex-shrink-0">
@@ -1558,8 +1584,10 @@
                                                                 <div class="flex-grow-1 ms-2 name">Kane Brook </div>
                                                             </div>
                                                         </td>
-                                                        <td class="company_name"><a href="http://"> username@gmail.com</a></td>
-                                                        <td class="leads_score"><a href="http://">linkbuilders.io</a></td>
+                                                        <td class="company_name"><a href="http://">
+                                                                username@gmail.com</a></td>
+                                                        <td class="leads_score"><a href="http://">linkbuilders.io</a>
+                                                        </td>
                                                         <td class="phone">Get In Touch Page4</td>
                                                         <td class="location">United States</td>
                                                         <td class="tags">
@@ -1569,17 +1597,25 @@
                                                         <td class="date">12 June 2023</td>
                                                         <td>
                                                             <div class="dropdown d-inline-block">
-                                                                <button class="btn btn-soft-secondary btn-sm dropdown show" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                                                <button
+                                                                    class="btn btn-soft-secondary btn-sm dropdown show"
+                                                                    type="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="true">
                                                                     <i class="ri-more-2-fill align-middle"></i>
                                                                 </button>
-                                                                <ul class="dropdown-menu dropdown-menu-end show" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 28.6667px, 0px);">
-                                                                    <li><a href="#!" class="dropdown-item"><i class="ri-eye-fill align-bottom me-2 text-muted"></i>
+                                                                <ul class="dropdown-menu dropdown-menu-end show"
+                                                                    data-popper-placement="bottom-end"
+                                                                    style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 28.6667px, 0px);">
+                                                                    <li><a href="#!" class="dropdown-item"><i
+                                                                                class="ri-eye-fill align-bottom me-2 text-muted"></i>
                                                                             View</a></li>
-                                                                    <li><a class="dropdown-item edit-item-btn"><i class="ri-pencil-fill align-bottom me-2 text-muted"></i>
+                                                                    <li><a class="dropdown-item edit-item-btn"><i
+                                                                                class="ri-pencil-fill align-bottom me-2 text-muted"></i>
                                                                             Edit</a></li>
                                                                     <li>
                                                                         <a class="dropdown-item remove-item-btn">
-                                                                            <i class="ri-delete-bin-fill align-bottom me-2 text-muted"></i>
+                                                                            <i
+                                                                                class="ri-delete-bin-fill align-bottom me-2 text-muted"></i>
                                                                             Delete
                                                                         </a>
                                                                     </li>
@@ -1612,14 +1648,18 @@
                                                             </ul>
                                                         </td> -->
                                                     </tr>
-                                                </tbody> 
-                                            
+                                                </tbody>
+
                                             </table>
                                             <div class="noresult" style="display: none">
                                                 <div class="text-center">
-                                                    <lord-icon src="../../../../external.html?link=https://cdn.lordicon.com/msoeawqm.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:75px;height:75px"></lord-icon>
+                                                    <lord-icon
+                                                        src="../../../../external.html?link=https://cdn.lordicon.com/msoeawqm.json"
+                                                        trigger="loop" colors="primary:#121331,secondary:#08a88a"
+                                                        style="width:75px;height:75px"></lord-icon>
                                                     <h5 class="mt-2">Sorry! No Result Found</h5>
-                                                    <p class="text-muted mb-0">We've searched more than 150+ leads We did not find any leads for you search.</p>
+                                                    <p class="text-muted mb-0">We've searched more than 150+ leads We
+                                                        did not find any leads for you search.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1635,14 +1675,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                   
 
-                                    <div class="modal fade" id="showModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                                    <div class="modal fade" id="showModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                                 <div class="modal-header bg-light p-3">
                                                     <h5 class="modal-title" id="exampleModalLabel"></h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close-modal"></button>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close" id="close-modal"></button>
                                                 </div>
                                                 <form class="tablelist-form" autocomplete="off">
                                                     <div class="modal-body">
@@ -1652,61 +1694,87 @@
                                                                 <div class="text-center">
                                                                     <div class="position-relative d-inline-block">
                                                                         <div class="position-absolute bottom-0 end-0">
-                                                                            <label for="lead-image-input" class="mb-0" data-bs-toggle="tooltip" data-bs-placement="right" title="Select Image">
+                                                                            <label for="lead-image-input" class="mb-0"
+                                                                                data-bs-toggle="tooltip"
+                                                                                data-bs-placement="right"
+                                                                                title="Select Image">
                                                                                 <div class="avatar-xs cursor-pointer">
-                                                                                    <div class="avatar-title bg-light border rounded-circle text-muted">
+                                                                                    <div
+                                                                                        class="avatar-title bg-light border rounded-circle text-muted">
                                                                                         <i class="ri-image-fill"></i>
                                                                                     </div>
                                                                                 </div>
                                                                             </label>
-                                                                            <input class="form-control d-none" value="" id="lead-image-input" type="file" accept="image/png, image/gif, image/jpeg">
+                                                                            <input class="form-control d-none" value=""
+                                                                                id="lead-image-input" type="file"
+                                                                                accept="image/png, image/gif, image/jpeg">
                                                                         </div>
                                                                         <div class="avatar-lg p-1">
-                                                                            <div class="avatar-title bg-light rounded-circle">
-                                                                                <img src="assets/images/users/user-dummy-img.jpg" id="lead-img" class="avatar-md rounded-circle object-fit-cover" />
+                                                                            <div
+                                                                                class="avatar-title bg-light rounded-circle">
+                                                                                <img src="assets/images/users/user-dummy-img.jpg"
+                                                                                    id="lead-img"
+                                                                                    class="avatar-md rounded-circle object-fit-cover" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <h5 class="fs-13 mt-3">Lead Image</h5>
                                                                 </div>
                                                                 <div>
-                                                                    <label for="leadname-field" class="form-label">Name</label>
-                                                                    <input type="text" id="leadname-field" class="form-control" placeholder="Enter Name" required />
+                                                                    <label for="leadname-field"
+                                                                        class="form-label">Name</label>
+                                                                    <input type="text" id="leadname-field"
+                                                                        class="form-control" placeholder="Enter Name"
+                                                                        required />
                                                                 </div>
                                                             </div>
                                                             <!--end col-->
                                                             <div class="col-lg-12">
                                                                 <div>
-                                                                    <label for="company_name-field" class="form-label">Company Name</label>
-                                                                    <input type="text" id="company_name-field" class="form-control" placeholder="Enter company name" required />
+                                                                    <label for="company_name-field"
+                                                                        class="form-label">Company Name</label>
+                                                                    <input type="text" id="company_name-field"
+                                                                        class="form-control"
+                                                                        placeholder="Enter company name" required />
                                                                 </div>
                                                             </div>
                                                             <!--end col-->
                                                             <div class="col-lg-6">
                                                                 <div>
-                                                                    <label for="leads_score-field" class="form-label">Leads Score</label>
-                                                                    <input type="text" id="leads_score-field" class="form-control" placeholder="Enter lead score" required />
+                                                                    <label for="leads_score-field"
+                                                                        class="form-label">Leads Score</label>
+                                                                    <input type="text" id="leads_score-field"
+                                                                        class="form-control"
+                                                                        placeholder="Enter lead score" required />
                                                                 </div>
                                                             </div>
                                                             <!--end col-->
                                                             <div class="col-lg-6">
                                                                 <div>
-                                                                    <label for="phone-field" class="form-label">Phone</label>
-                                                                    <input type="text" id="phone-field" class="form-control" placeholder="Enter phone no" required />
+                                                                    <label for="phone-field"
+                                                                        class="form-label">Phone</label>
+                                                                    <input type="text" id="phone-field"
+                                                                        class="form-control"
+                                                                        placeholder="Enter phone no" required />
                                                                 </div>
                                                             </div>
                                                             <!--end col-->
                                                             <div class="col-lg-12">
                                                                 <div>
-                                                                    <label for="location-field" class="form-label">Location</label>
-                                                                    <input type="text" id="location-field" class="form-control" placeholder="Enter location" required />
+                                                                    <label for="location-field"
+                                                                        class="form-label">Location</label>
+                                                                    <input type="text" id="location-field"
+                                                                        class="form-control"
+                                                                        placeholder="Enter location" required />
                                                                 </div>
                                                             </div>
                                                             <!--end col-->
                                                             <div class="col-lg-12">
                                                                 <div>
-                                                                    <label for="taginput-choices" class="form-label">Tags</label>
-                                                                    <select class="form-control" name="taginput-choices" id="taginput-choices" multiple>
+                                                                    <label for="taginput-choices"
+                                                                        class="form-label">Tags</label>
+                                                                    <select class="form-control" name="taginput-choices"
+                                                                        id="taginput-choices" multiple>
                                                                         <option value="Lead">Lead</option>
                                                                         <option value="Partner">Partner</option>
                                                                         <option value="Exiting">Exiting</option>
@@ -1716,8 +1784,12 @@
                                                             </div>
                                                             <div class="col-lg-12">
                                                                 <div>
-                                                                    <label for="date-field" class="form-label">Created Date</label>
-                                                                    <input type="date" id="date-field" class="form-control" data-provider="flatpickr" data-date-format="d M, Y" placeholder="Select Date" required />
+                                                                    <label for="date-field" class="form-label">Created
+                                                                        Date</label>
+                                                                    <input type="date" id="date-field"
+                                                                        class="form-control" data-provider="flatpickr"
+                                                                        data-date-format="d M, Y"
+                                                                        placeholder="Select Date" required />
                                                                 </div>
                                                             </div>
                                                             <!--end col-->
@@ -1726,8 +1798,10 @@
                                                     </div>
                                                     <div class="modal-footer">
                                                         <div class="hstack gap-2 justify-content-end">
-                                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-                                                            <button type="submit" class="btn btn-success" id="add-btn">Add leads</button>
+                                                            <button type="button" class="btn btn-light"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="submit" class="btn btn-success"
+                                                                id="add-btn">Add leads</button>
                                                             <!-- <button type="button" class="btn btn-success" id="edit-btn">Update</button> -->
                                                         </div>
                                                     </div>
@@ -1738,21 +1812,32 @@
                                     <!--end modal-->
 
                                     <!-- Modal -->
-                                    <div class="modal fade zoomIn" id="deleteRecordModal" tabindex="-1" aria-labelledby="deleteRecordLabel" aria-hidden="true">
+                                    <div class="modal fade zoomIn" id="deleteRecordModal" tabindex="-1"
+                                        aria-labelledby="deleteRecordLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="btn-close"></button>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close" id="btn-close"></button>
                                                 </div>
                                                 <div class="modal-body p-5 text-center">
-                                                    <lord-icon src="../../../../external.html?link=https://cdn.lordicon.com/gsqxdxog.json" trigger="loop" colors="primary:#405189,secondary:#f06548" style="width:90px;height:90px"></lord-icon>
+                                                    <lord-icon
+                                                        src="../../../../external.html?link=https://cdn.lordicon.com/gsqxdxog.json"
+                                                        trigger="loop" colors="primary:#405189,secondary:#f06548"
+                                                        style="width:90px;height:90px"></lord-icon>
                                                     <div class="mt-4 text-center">
                                                         <h4 class="fs-semibold">You are about to delete a lead ?</h4>
-                                                        <p class="text-muted fs-14 mb-4 pt-1">Deleting your lead will remove all of your information from our database.</p>
+                                                        <p class="text-muted fs-14 mb-4 pt-1">Deleting your lead will
+                                                            remove all of your information from our database.</p>
                                                         <div class="hstack gap-2 justify-content-center remove">
 
-                                                            <button class="btn btn-link link-success fw-medium text-decoration-none" id="deleteRecord-close" data-bs-dismiss="modal"><i class="ri-close-line me-1 align-middle"></i> Close</button>
-                                                            <button class="btn btn-danger" id="delete-record">Yes, Delete It!!</button>
+                                                            <button
+                                                                class="btn btn-link link-success fw-medium text-decoration-none"
+                                                                id="deleteRecord-close" data-bs-dismiss="modal"><i
+                                                                    class="ri-close-line me-1 align-middle"></i>
+                                                                Close</button>
+                                                            <button class="btn btn-danger" id="delete-record">Yes,
+                                                                Delete It!!</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1762,21 +1847,29 @@
                                     <!--end modal -->
 
 
-                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                                        aria-labelledby="offcanvasExampleLabel">
                                         <div class="offcanvas-header bg-light">
                                             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Leads Fliters</h5>
-                                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            <button type="button" class="btn-close text-reset"
+                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                         </div>
                                         <!--end offcanvas-header-->
                                         <form action="#" class="d-flex flex-column justify-content-end h-100">
                                             <div class="offcanvas-body">
                                                 <div class="mb-4">
-                                                    <label for="datepicker-range" class="form-label text-muted text-uppercase fw-semibold mb-3">Date</label>
-                                                    <input type="date" class="form-control" id="datepicker-range" data-provider="flatpickr" data-range="true" placeholder="Select date">
+                                                    <label for="datepicker-range"
+                                                        class="form-label text-muted text-uppercase fw-semibold mb-3">Date</label>
+                                                    <input type="date" class="form-control" id="datepicker-range"
+                                                        data-provider="flatpickr" data-range="true"
+                                                        placeholder="Select date">
                                                 </div>
                                                 <div class="mb-4">
-                                                    <label for="country-select" class="form-label text-muted text-uppercase fw-semibold mb-3">Country</label>
-                                                    <select class="form-control" data-choices data-choices-multiple-remove="true" name="country-select" id="country-select" multiple>
+                                                    <label for="country-select"
+                                                        class="form-label text-muted text-uppercase fw-semibold mb-3">Country</label>
+                                                    <select class="form-control" data-choices
+                                                        data-choices-multiple-remove="true" name="country-select"
+                                                        id="country-select" multiple>
                                                         <option value="">Select country</option>
                                                         <option value="Argentina">Argentina</option>
                                                         <option value="Belgium">Belgium</option>
@@ -1790,125 +1883,162 @@
                                                         <option value="Spain">Spain</option>
                                                         <option value="Syria">Syria</option>
                                                         <option value="United Kingdom" selected>United Kingdom</option>
-                                                        <option value="United States of America">United States of America</option>
+                                                        <option value="United States of America">United States of
+                                                            America</option>
                                                     </select>
                                                 </div>
                                                 <div class="mb-4">
-                                                    <label for="status-select" class="form-label text-muted text-uppercase fw-semibold mb-3">Status</label>
+                                                    <label for="status-select"
+                                                        class="form-label text-muted text-uppercase fw-semibold mb-3">Status</label>
                                                     <div class="row g-2">
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                                                <label class="form-check-label" for="inlineCheckbox1">New Leads</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox1" value="option1">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox1">New Leads</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                                                <label class="form-check-label" for="inlineCheckbox2">Old Leads</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox2">Old Leads</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                                                <label class="form-check-label" for="inlineCheckbox3">Loss Leads</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox3" value="option3">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox3">Loss Leads</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                                                                <label class="form-check-label" for="inlineCheckbox4">Follow Up</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox4" value="option4">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox4">Follow Up</label>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="mb-4">
-                                                    <label for="leadscore" class="form-label text-muted text-uppercase fw-semibold mb-3">Lead Score</label>
+                                                    <label for="leadscore"
+                                                        class="form-label text-muted text-uppercase fw-semibold mb-3">Lead
+                                                        Score</label>
                                                     <div class="row g-2 align-items-center">
                                                         <div class="col-lg">
-                                                            <input type="number" class="form-control" id="leadscore" placeholder="0">
+                                                            <input type="number" class="form-control" id="leadscore"
+                                                                placeholder="0">
                                                         </div>
                                                         <div class="col-lg-auto">
                                                             To
                                                         </div>
                                                         <div class="col-lg">
-                                                            <input type="number" class="form-control" id="leadscore" placeholder="0">
+                                                            <input type="number" class="form-control" id="leadscore"
+                                                                placeholder="0">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <label for="leads-tags" class="form-label text-muted text-uppercase fw-semibold mb-3">Tags</label>
+                                                    <label for="leads-tags"
+                                                        class="form-label text-muted text-uppercase fw-semibold mb-3">Tags</label>
                                                     <div class="row g-3">
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="marketing" value="marketing">
-                                                                <label class="form-check-label" for="marketing">Marketing</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="marketing" value="marketing">
+                                                                <label class="form-check-label"
+                                                                    for="marketing">Marketing</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="management" value="management">
-                                                                <label class="form-check-label" for="management">Management</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="management" value="management">
+                                                                <label class="form-check-label"
+                                                                    for="management">Management</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="business" value="business">
-                                                                <label class="form-check-label" for="business">Business</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="business" value="business">
+                                                                <label class="form-check-label"
+                                                                    for="business">Business</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="investing" value="investing">
-                                                                <label class="form-check-label" for="investing">Investing</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="investing" value="investing">
+                                                                <label class="form-check-label"
+                                                                    for="investing">Investing</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="partner" value="partner">
-                                                                <label class="form-check-label" for="partner">Partner</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="partner" value="partner">
+                                                                <label class="form-check-label"
+                                                                    for="partner">Partner</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="lead" value="lead">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="lead" value="lead">
                                                                 <label class="form-check-label" for="lead">Leads</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="sale" value="sale">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="sale" value="sale">
                                                                 <label class="form-check-label" for="sale">Sale</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="owner" value="owner">
-                                                                <label class="form-check-label" for="owner">Owner</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="owner" value="owner">
+                                                                <label class="form-check-label"
+                                                                    for="owner">Owner</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="banking" value="banking">
-                                                                <label class="form-check-label" for="banking">Banking</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="banking" value="banking">
+                                                                <label class="form-check-label"
+                                                                    for="banking">Banking</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="banking" value="banking">
-                                                                <label class="form-check-label" for="banking">Exiting</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="banking" value="banking">
+                                                                <label class="form-check-label"
+                                                                    for="banking">Exiting</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="banking" value="banking">
-                                                                <label class="form-check-label" for="banking">Finance</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="banking" value="banking">
+                                                                <label class="form-check-label"
+                                                                    for="banking">Finance</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="banking" value="banking">
-                                                                <label class="form-check-label" for="banking">Fashion</label>
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="banking" value="banking">
+                                                                <label class="form-check-label"
+                                                                    for="banking">Fashion</label>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1974,10 +2104,10 @@
         </div>
     </div>
 
-  
+
     <!-- JAVASCRIPT -->
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <!-- <script src="assets/libs/simplebar/simplebar.min.js"></script> -->
     <script src="assets/libs/node-waves/waves.min.js"></script>
     <script src="assets/libs/feather-icons/feather.min.js"></script>
     <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
@@ -1995,4 +2125,5 @@
     <!-- App js -->
     <script src="assets/js/app.js"></script>
 </body>
+
 </html>

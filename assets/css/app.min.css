@@ -39,7 +39,7 @@
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1002;
+  z-index: 1009;
   background-color: var(--vz-header-bg);
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
@@ -593,10 +593,10 @@
   transform: rotate(90deg);
 }
 .navbar-menu .navbar-nav .nav-sm {
-  padding-left: 1.75rem;
+  padding-left: 0 rem;
 }
 .navbar-menu .navbar-nav .nav-sm .nav-link {
-  padding: 0.55rem 1.5rem !important;
+  padding: 0.55rem 1.5rem;
   color: var(--vz-vertical-menu-sub-item-color);
   white-space: none;
   position: relative;
@@ -692,7 +692,7 @@
 }
 .hamburger-icon.open {
   -webkit-transform: rotate(-90deg);
-  transform: rotate(-270deg);
+  transform: rotate(-176deg);
 }
 .hamburger-icon.open span:nth-child(1) {
   left: 1px;
@@ -7855,7 +7855,7 @@ width: 100%;
 .list-group-item.active .list-text {
   color: rgba(255, 255, 255, 0.5);
 }
-[data-simplebar] {
+/* [data-simplebar] {
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -7871,13 +7871,16 @@ width: 100%;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-}
+} */
 .simplebar-wrapper {
-  overflow: hidden;
+  /* overflow: hidden; */
   width: inherit;
   height: inherit;
   max-width: inherit;
   max-height: inherit;
+}
+.simplebar-content-wrapper{
+  overflow: auto!important;
 }
 .simplebar-mask {
   direction: inherit;
@@ -7893,6 +7896,9 @@ width: 100%;
   height: auto !important;
   z-index: 0;
 }
+.navbar-nav .simplebar-mask{
+  overflow: visible;
+}
 .simplebar-offset {
   direction: inherit !important;
   -webkit-box-sizing: inherit !important;
@@ -7906,6 +7912,9 @@ width: 100%;
   padding: 0;
   margin: 0;
   -webkit-overflow-scrolling: touch;
+}
+.navbar-nav .simplebar-offset{
+  position: static;
 }
 .simplebar-content-wrapper {
   direction: inherit;
@@ -7959,6 +7968,9 @@ width: 100%;
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
 }
+.navbar-nav .simplebar-height-auto-observer-wrapper{
+  overflow: visible;
+}
 .simplebar-height-auto-observer {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
@@ -7998,6 +8010,9 @@ width: 100%;
   right: 2px;
   width: 6px;
   min-height: 10px;
+}
+.navbar-nav .simplebar-scrollbar{
+  position: static;
 }
 .simplebar-scrollbar:before {
   position: absolute;
@@ -16268,3 +16283,86 @@ span.flatpickr-weekday {
   right: -35px;
 }
 /*# sourceMappingURL=app.min.css.map */
+li.nav-item {
+  position: relative;
+}
+li.nav-item:hover  .menu-dropdown{
+display: block;
+}
+.nav-item .menu-dropdown {
+  position: absolute;
+  background: #172b4d;
+  z-index: 9;
+  right: -200px;
+  top: 8px;
+  width: 200px;
+  border-left: 2px solid #fff;
+    padding: 8px 0;
+}
+.navbar-menu .navbar-nav .nav-link.hassubmenu:after {
+  display: block;
+  content: "\f0142";
+  font-family: "Material Design Icons";
+  margin-left: auto;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  font-size: 1.05rem;
+  position: absolute;
+  right: 18px;
+  color: inherit;
+}
+button#topnav-hamburger-icon {
+  background: #F5F8FA;
+  padding: 0;
+  height: 28px;
+  width: 24px;
+  position: absolute;
+  left: -16px;
+  top: 25px;
+  z-index: 999;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+.hamburger-icon span{
+  display: none;
+}
+.hamburger-icon:after {
+  background-image: none !important;
+  font-family: "Material Design Icons";
+  content: "\f0142";
+  font-size: 1.6rem;
+  vertical-align: middle;
+  line-height: 0.8;
+  position: absolute;
+  left: -12px;
+  /* font-size: 22px; */
+  top: -3px;
+}
+
+/* Font media query for 1440 */
+
+@media (max-width:1440px) and (min-width:1024px) {
+  body .mlt-23 {
+      margin-left: 10px !important;
+  }
+  body .fs-16 {
+    font-size:14px !important;
+    line-height: 120%;
+  }
+  .navbar-menu .navbar-nav .nav-link,
+  .navbar-menu .navbar-nav .nav-sm .nav-link {
+      padding: 0.425rem 1.5rem;
+  }
+}
+
+@media (max-width:1440px) and (min-width:1024px) {
+  .navbar-menu .navbar-nav .nav-link, .navbar-menu .navbar-nav .nav-sm .nav-link {
+      padding: 0.425rem 1rem;
+  }
+  body .fs-16 {
+    font-size:14px !important;
+    line-height: 120%;
+  }
+}
