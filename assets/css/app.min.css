@@ -7904,6 +7904,9 @@ width: 100%;
 .navbar-nav .simplebar-mask{
   overflow: visible;
 }
+.navbar-nav .simplebar-mask{
+  overflow: visible;
+}
 .simplebar-offset {
   direction: inherit !important;
   -webkit-box-sizing: inherit !important;
@@ -7917,6 +7920,9 @@ width: 100%;
   padding: 0;
   margin: 0;
   -webkit-overflow-scrolling: touch;
+}
+.navbar-nav .simplebar-offset{
+  position: static;
 }
 .navbar-nav .simplebar-offset{
   position: static;
@@ -7976,6 +7982,9 @@ width: 100%;
 .navbar-nav .simplebar-height-auto-observer-wrapper{
   overflow: visible;
 }
+.navbar-nav .simplebar-height-auto-observer-wrapper{
+  overflow: visible;
+}
 .simplebar-height-auto-observer {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
@@ -8015,6 +8024,9 @@ width: 100%;
   right: 2px;
   width: 6px;
   min-height: 10px;
+}
+.navbar-nav .simplebar-scrollbar{
+  position: static;
 }
 .navbar-nav .simplebar-scrollbar{
   position: static;
