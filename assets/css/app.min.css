@@ -116,6 +116,7 @@
 }
 .app-search {
   padding: calc(32px * 0.5) 0;
+  margin-left: 13px;
 }
 /* body{
   background: var(--Background-White, #F4F5F6);
@@ -589,8 +590,8 @@
   /* background-color: var(--vz-vertical-menu-item-active-color); */
 }
 .navbar-menu .navbar-nav .nav-link.collapsed.active::after {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 .navbar-menu .navbar-nav .nav-sm {
   padding-left: 0 rem;
@@ -1309,13 +1310,14 @@
   display: block;
   left: var(--vz-vertical-menu-width-sm);
   position: absolute;
-  width: 120px;
+  width: auto;
   background: var(--vz-vertical-menu-bg);
   height: auto !important;
   padding: 0.5rem 0;
   border-radius: 0 0 3px 3px;
   -webkit-box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
   box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
+  top: 38px;
 }
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"]
   .navbar-menu
@@ -1619,10 +1621,10 @@
   opacity: .5;
   font-weight: 600;
 }
-.menu-title span {
+/* .menu-title span {
   padding: 12px 20px;
   display: inline-block;
-}
+} */
 .menu-title i {
   display: none;
 }
@@ -4597,6 +4599,7 @@ code {
   --vz-vertical-menu-sub-item-hover-color: #172B4D;
   --vz-vertical-menu-sub-item-active-color: #172B4D;
   --vz-vertical-menu-title-color: #919da9;
+  --headding: #fff;
 }
 [data-bs-theme="dark"][data-sidebar="dark"] {
   --vz-vertical-menu-bg: #212529;
@@ -4616,10 +4619,16 @@ html {
   position: relative;
   min-height: 100%;
 }
-:is(.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6) {
+ {
   font-family: DM Sans, sans-serif;
   color: #000 !important;
+
 }
+:is(data-bs-theme="dark") :is(.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6){
+  color: var(--headding);
+}
+
+
 label {
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -16334,12 +16343,12 @@ display: block;
 }
 button#topnav-hamburger-icon {
   background: #F5F8FA;
-  padding: 0;
-  height: 32px;
+  padding: 0!important;
+  height: 24px;
   width: 24px;
   position: absolute;
-  left: -16px;
-  top: 25px;
+  left: -13px;
+  top: 20px;
   z-index: 999;
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
@@ -16351,14 +16360,19 @@ button#topnav-hamburger-icon {
   background-image: none !important;
   font-family: "Material Design Icons";
   content: "\f0142";
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   vertical-align: middle;
   line-height: 0.8;
   position: absolute;
-  left: -12px;
+  left: 1px;
   /* font-size: 22px; */
-  top: -3px;
+  top: -1px;
 }
+.hamburger-icon.open:after{
+  left: -1px;
+}
+
+
 
 /* Font media query for 1440 */
 
