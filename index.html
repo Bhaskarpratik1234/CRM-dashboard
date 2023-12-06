@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en" data-layout="vertical" data-layout-style="default" data-layout-position="fixed" data-topbar="light"
-    data-sidebar="dark" data-layout-width="fluid">
+    data-sidebar="dark" data-layout-width="fluid" data-sidebar-size="lg">
 
 <head>
 
@@ -59,7 +59,7 @@
 
                         <button type="button"
                             class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger"
-                            id="topnav-hamburger-icon">
+                            id="topnav-hamburger-icon" onclick="toggleNavBar()">
                             <span class="hamburger-icon">
                                 <span></span>
                                 <span></span>
@@ -2539,6 +2539,10 @@
 
 
         <!-- JAVASCRIPT -->
+         <!-- App js -->
+         <script src="assets/js/app.js"></script>
+
+
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="assets/libs/simplebar/simplebar.min.js"></script> -->
         <!-- <script src="assets/libs/node-waves/waves.min.js"></script> -->
@@ -2568,8 +2572,19 @@
 
         <!-- chartjs init -->
         <script src="assets/js/pages/chartjs.init.js"></script>
-        <!-- App js -->
-        <!-- <script src="assets/js/app.js"></script> -->
+       
+        <script>
+            
+             function toggleNavBar(){
+                const element = document.documentElement;
+                if (element.hasAttribute("data-sidebar-size", "lg") ) {
+                    element.setAttribute("data-sidebar-size", "sm");
+                }else if(element.hasAttribute("data-sidebar-size", "sm")){
+                    element.setAttribute("data-sidebar-size", "lg");
+                }
+             }
+           
+        </script>
 </body>
 
 </html>
