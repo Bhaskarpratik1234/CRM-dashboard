@@ -1623,7 +1623,7 @@
 }
 /* .menu-title span {
   padding: 12px 20px;
-  display: inline-block;
+  display: inline-block;  
 } */
 .menu-title i {
   display: none;
@@ -4619,10 +4619,9 @@ html {
   position: relative;
   min-height: 100%;
 }
- {
+ :is(.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6) {
   font-family: DM Sans, sans-serif;
   color: #000 !important;
-
 }
 :is(data-bs-theme="dark") :is(.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6){
   color: var(--headding);
