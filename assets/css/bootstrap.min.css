@@ -5118,7 +5118,7 @@ fieldset:disabled .btn {
   border-radius: var(--vz-breadcrumb-border-radius);
 }
 .breadcrumb-item + .breadcrumb-item {
-  /* padding-left: var(--vz-breadcrumb-item-padding-x); */
+  padding-left: var(--vz-breadcrumb-item-padding-x);
 }
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
@@ -6821,9 +6821,9 @@ fieldset:disabled .btn {
 .offcanvas-sm,
 .offcanvas-xl,
 .offcanvas-xxl {
-  --vz-offcanvas-zindex: 1045;
-  --vz-offcanvas-width: 400px;
-  --vz-offcanvas-height: 30vh;
+  --vz-offcanvas-zindex: 1045 !important;
+  --vz-offcanvas-width: 850px !important;
+  --vz-offcanvas-height: 50vh !important;
   --vz-offcanvas-padding-x: 1.25rem;
   --vz-offcanvas-padding-y: 1.25rem;
   --vz-offcanvas-color: var(--vz-body-color);

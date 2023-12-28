@@ -3,59 +3,59 @@
     M = 7,
     t = "en",
     a = localStorage.getItem("language");
-  function o() {
-    n(null === a ? t : a);
-    var e = document.getElementsByClassName("language");
-    e &&
-      Array.from(e).forEach(function (t) {
-        t.addEventListener("click", function (e) {
-          n(t.getAttribute("data-lang"));
-        });
-      });
-  }
-  function n(e) {
-    document.getElementById("header-lang-img") &&
-      ("en" == e
-        ? (document.getElementById("header-lang-img").src =
-            "assets/images/flags/us.svg")
-        : "sp" == e
-        ? (document.getElementById("header-lang-img").src =
-            "assets/images/flags/spain.svg")
-        : "gr" == e
-        ? (document.getElementById("header-lang-img").src =
-            "assets/images/flags/germany.svg")
-        : "it" == e
-        ? (document.getElementById("header-lang-img").src =
-            "assets/images/flags/italy.svg")
-        : "ru" == e
-        ? (document.getElementById("header-lang-img").src =
-            "assets/images/flags/russia.svg")
-        : "ch" == e
-        ? (document.getElementById("header-lang-img").src =
-            "assets/images/flags/china.svg")
-        : "fr" == e
-        ? (document.getElementById("header-lang-img").src =
-            "assets/images/flags/french.svg")
-        : "ar" == e &&
-          (document.getElementById("header-lang-img").src =
-            "assets/images/flags/ae.svg"),
-      localStorage.setItem("language", e),
-      null == (a = localStorage.getItem("language")) && n(t),
-      (e = new XMLHttpRequest()).open("GET", "assets/lang/" + a + ".json"),
-      (e.onreadystatechange = function () {
-        var a;
-        4 === this.readyState &&
-          200 === this.status &&
-          ((a = JSON.parse(this.responseText)),
-          Object.keys(a).forEach(function (t) {
-            var e = document.querySelectorAll("[data-key='" + t + "']");
-            Array.from(e).forEach(function (e) {
-              e.textContent = a[t];
-            });
-          }));
-      }),
-      e.send());
-  }
+  // function o() {
+  //   n(null === a ? t : a);
+  //   var e = document.getElementsByClassName("language");
+  //   e &&
+  //     Array.from(e).forEach(function (t) {
+  //       t.addEventListener("click", function (e) {
+  //         n(t.getAttribute("data-lang"));
+  //       });
+  //     });
+  // }
+  // function n(e) {
+  //   document.getElementById("header-lang-img") &&
+  //     ("en" == e
+  //       ? (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/us.svg")
+  //       : "sp" == e
+  //       ? (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/spain.svg")
+  //       : "gr" == e
+  //       ? (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/germany.svg")
+  //       : "it" == e
+  //       ? (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/italy.svg")
+  //       : "ru" == e
+  //       ? (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/russia.svg")
+  //       : "ch" == e
+  //       ? (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/china.svg")
+  //       : "fr" == e
+  //       ? (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/french.svg")
+  //       : "ar" == e &&
+  //         (document.getElementById("header-lang-img").src =
+  //           "assets/images/flags/ae.svg"),
+  //     localStorage.setItem("language", e),
+  //     null == (a = localStorage.getItem("language")) && n(t),
+  //     (e = new XMLHttpRequest()).open("GET", "assets/lang/" + a + ".json"),
+  //     (e.onreadystatechange = function () {
+  //       var a;
+  //       4 === this.readyState &&
+  //         200 === this.status &&
+  //         ((a = JSON.parse(this.responseText)),
+  //         Object.keys(a).forEach(function (t) {
+  //           var e = document.querySelectorAll("[data-key='" + t + "']");
+  //           Array.from(e).forEach(function (e) {
+  //             e.textContent = a[t];
+  //           });
+  //         }));
+  //     }),
+  //     e.send());
+  // }
   function s() {
     var e;
     document.querySelectorAll(".navbar-nav .collapse") &&
@@ -1409,19 +1409,19 @@
               '<div class="empty-notification-elem">\t\t\t\t\t\t\t<div class="w-25 w-sm-50 pt-3 mx-auto">\t\t\t\t\t\t\t\t<img src="assets/images/svg/bell.svg" class="img-fluid" alt="user-pic">\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t<div class="text-center pb-5 mt-2">\t\t\t\t\t\t\t\t<h6 class="fs-18 fw-semibold lh-base">Hey! You have no any notifications </h6>\t\t\t\t\t\t\t</div>\t\t\t\t\t\t</div>'));
     });
   }
-  function W() {
-    var e;
-    "horizontal" !== document.documentElement.getAttribute("data-layout") &&
-      (document.getElementById("navbar-nav") &&
-        (e = new SimpleBar(document.getElementById("navbar-nav"))) &&
-        e.getContentElement(),
-      document.getElementsByClassName("twocolumn-iconview")[0] &&
-        (e = new SimpleBar(
-          document.getElementsByClassName("twocolumn-iconview")[0]
-        )) &&
-        e.getContentElement(),
-      clearTimeout(q));
-  }
+  // function W() {
+  //   var e;
+  //   "horizontal" !== document.documentElement.getAttribute("data-layout") &&
+  //     (document.getElementById("navbar-nav") &&
+  //       (e = new SimpleBar(document.getElementById("navbar-nav"))) &&
+  //       e.getContentElement(),
+  //     document.getElementsByClassName("twocolumn-iconview")[0] &&
+  //       (e = new SimpleBar(
+  //         document.getElementsByClassName("twocolumn-iconview")[0]
+  //       )) &&
+  //       e.getContentElement(),
+  //     clearTimeout(q));
+  // }
   sessionStorage.getItem("defaultAttribute")
     ? (((f = {})["data-layout"] = sessionStorage.getItem("data-layout")),
       (f["data-sidebar-size"] = sessionStorage.getItem("data-sidebar-size")),
@@ -1688,100 +1688,100 @@
           }).showToast();
       });
     }),
-    (z = document.querySelectorAll("[data-choices]")),
-    Array.from(z).forEach(function (e) {
-      var t = {},
-        a = e.attributes;
-      a["data-choices-groups"] &&
-        (t.placeholderValue = "This is a placeholder set in the config"),
-        a["data-choices-search-false"] && (t.searchEnabled = !1),
-        a["data-choices-search-true"] && (t.searchEnabled = !0),
-        a["data-choices-removeItem"] && (t.removeItemButton = !0),
-        a["data-choices-sorting-false"] && (t.shouldSort = !1),
-        a["data-choices-sorting-true"] && (t.shouldSort = !0),
-        a["data-choices-multiple-remove"] && (t.removeItemButton = !0),
-        a["data-choices-limit"] &&
-          (t.maxItemCount = a["data-choices-limit"].value.toString()),
-        a["data-choices-limit"] &&
-          (t.maxItemCount = a["data-choices-limit"].value.toString()),
-        a["data-choices-editItem-true"] && (t.maxItemCount = !0),
-        a["data-choices-editItem-false"] && (t.maxItemCount = !1),
-        a["data-choices-text-unique-true"] && (t.duplicateItemsAllowed = !1),
-        a["data-choices-text-disabled-true"] && (t.addItems = !1),
-        a["data-choices-text-disabled-true"]
-          ? new Choices(e, t).disable()
-          : new Choices(e, t);
-    }),
-    (z = document.querySelectorAll("[data-provider]")),
-    Array.from(z).forEach(function (e) {
-      var t, a, n;
-      "flatpickr" == e.getAttribute("data-provider")
-        ? ((n = e.attributes),
-          ((t = {}).disableMobile = "true"),
-          n["data-date-format"] &&
-            (t.dateFormat = n["data-date-format"].value.toString()),
-          n["data-enable-time"] &&
-            ((t.enableTime = !0),
-            (t.dateFormat = n["data-date-format"].value.toString() + " H:i")),
-          n["data-altFormat"] &&
-            ((t.altInput = !0),
-            (t.altFormat = n["data-altFormat"].value.toString())),
-          n["data-minDate"] &&
-            ((t.minDate = n["data-minDate"].value.toString()),
-            (t.dateFormat = n["data-date-format"].value.toString())),
-          n["data-maxDate"] &&
-            ((t.maxDate = n["data-maxDate"].value.toString()),
-            (t.dateFormat = n["data-date-format"].value.toString())),
-          n["data-deafult-date"] &&
-            ((t.defaultDate = n["data-deafult-date"].value.toString()),
-            (t.dateFormat = n["data-date-format"].value.toString())),
-          n["data-multiple-date"] &&
-            ((t.mode = "multiple"),
-            (t.dateFormat = n["data-date-format"].value.toString())),
-          n["data-range-date"] &&
-            ((t.mode = "range"),
-            (t.dateFormat = n["data-date-format"].value.toString())),
-          n["data-inline-date"] &&
-            ((t.inline = !0),
-            (t.defaultDate = n["data-deafult-date"].value.toString()),
-            (t.dateFormat = n["data-date-format"].value.toString())),
-          n["data-disable-date"] &&
-            ((a = []).push(n["data-disable-date"].value),
-            (t.disable = a.toString().split(","))),
-          n["data-week-number"] &&
-            ((a = []).push(n["data-week-number"].value), (t.weekNumbers = !0)),
-          flatpickr(e, t))
-        : "timepickr" == e.getAttribute("data-provider") &&
-          ((a = {}),
-          (n = e.attributes)["data-time-basic"] &&
-            ((a.enableTime = !0), (a.noCalendar = !0), (a.dateFormat = "H:i")),
-          n["data-time-hrs"] &&
-            ((a.enableTime = !0),
-            (a.noCalendar = !0),
-            (a.dateFormat = "H:i"),
-            (a.time_24hr = !0)),
-          n["data-min-time"] &&
-            ((a.enableTime = !0),
-            (a.noCalendar = !0),
-            (a.dateFormat = "H:i"),
-            (a.minTime = n["data-min-time"].value.toString())),
-          n["data-max-time"] &&
-            ((a.enableTime = !0),
-            (a.noCalendar = !0),
-            (a.dateFormat = "H:i"),
-            (a.minTime = n["data-max-time"].value.toString())),
-          n["data-default-time"] &&
-            ((a.enableTime = !0),
-            (a.noCalendar = !0),
-            (a.dateFormat = "H:i"),
-            (a.defaultDate = n["data-default-time"].value.toString())),
-          n["data-time-inline"] &&
-            ((a.enableTime = !0),
-            (a.noCalendar = !0),
-            (a.defaultDate = n["data-time-inline"].value.toString()),
-            (a.inline = !0)),
-          flatpickr(e, a));
-    }),
+    // (z = document.querySelectorAll("[data-choices]")),
+    // Array.from(z).forEach(function (e) {
+    //   var t = {},
+    //     a = e.attributes;
+    //   a["data-choices-groups"] &&
+    //     (t.placeholderValue = "This is a placeholder set in the config"),
+    //     a["data-choices-search-false"] && (t.searchEnabled = !1),
+    //     a["data-choices-search-true"] && (t.searchEnabled = !0),
+    //     a["data-choices-removeItem"] && (t.removeItemButton = !0),
+    //     a["data-choices-sorting-false"] && (t.shouldSort = !1),
+    //     a["data-choices-sorting-true"] && (t.shouldSort = !0),
+    //     a["data-choices-multiple-remove"] && (t.removeItemButton = !0),
+    //     a["data-choices-limit"] &&
+    //       (t.maxItemCount = a["data-choices-limit"].value.toString()),
+    //     a["data-choices-limit"] &&
+    //       (t.maxItemCount = a["data-choices-limit"].value.toString()),
+    //     a["data-choices-editItem-true"] && (t.maxItemCount = !0),
+    //     a["data-choices-editItem-false"] && (t.maxItemCount = !1),
+    //     a["data-choices-text-unique-true"] && (t.duplicateItemsAllowed = !1),
+    //     a["data-choices-text-disabled-true"] && (t.addItems = !1),
+    //     a["data-choices-text-disabled-true"]
+    //       ? new Choices(e, t).disable()
+    //       : new Choices(e, t);
+    // }),
+    // (z = document.querySelectorAll("[data-provider]")),
+    // Array.from(z).forEach(function (e) {
+    //   var t, a, n;
+    //   "flatpickr" == e.getAttribute("data-provider")
+    //     ? ((n = e.attributes),
+    //       ((t = {}).disableMobile = "true"),
+    //       n["data-date-format"] &&
+    //         (t.dateFormat = n["data-date-format"].value.toString()),
+    //       n["data-enable-time"] &&
+    //         ((t.enableTime = !0),
+    //         (t.dateFormat = n["data-date-format"].value.toString() + " H:i")),
+    //       n["data-altFormat"] &&
+    //         ((t.altInput = !0),
+    //         (t.altFormat = n["data-altFormat"].value.toString())),
+    //       n["data-minDate"] &&
+    //         ((t.minDate = n["data-minDate"].value.toString()),
+    //         (t.dateFormat = n["data-date-format"].value.toString())),
+    //       n["data-maxDate"] &&
+    //         ((t.maxDate = n["data-maxDate"].value.toString()),
+    //         (t.dateFormat = n["data-date-format"].value.toString())),
+    //       n["data-deafult-date"] &&
+    //         ((t.defaultDate = n["data-deafult-date"].value.toString()),
+    //         (t.dateFormat = n["data-date-format"].value.toString())),
+    //       n["data-multiple-date"] &&
+    //         ((t.mode = "multiple"),
+    //         (t.dateFormat = n["data-date-format"].value.toString())),
+    //       n["data-range-date"] &&
+    //         ((t.mode = "range"),
+    //         (t.dateFormat = n["data-date-format"].value.toString())),
+    //       n["data-inline-date"] &&
+    //         ((t.inline = !0),
+    //         (t.defaultDate = n["data-deafult-date"].value.toString()),
+    //         (t.dateFormat = n["data-date-format"].value.toString())),
+    //       n["data-disable-date"] &&
+    //         ((a = []).push(n["data-disable-date"].value),
+    //         (t.disable = a.toString().split(","))),
+    //       n["data-week-number"] &&
+    //         ((a = []).push(n["data-week-number"].value), (t.weekNumbers = !0)),
+    //       flatpickr(e, t))
+    //     : "timepickr" == e.getAttribute("data-provider") &&
+    //       ((a = {}),
+    //       (n = e.attributes)["data-time-basic"] &&
+    //         ((a.enableTime = !0), (a.noCalendar = !0), (a.dateFormat = "H:i")),
+    //       n["data-time-hrs"] &&
+    //         ((a.enableTime = !0),
+    //         (a.noCalendar = !0),
+    //         (a.dateFormat = "H:i"),
+    //         (a.time_24hr = !0)),
+    //       n["data-min-time"] &&
+    //         ((a.enableTime = !0),
+    //         (a.noCalendar = !0),
+    //         (a.dateFormat = "H:i"),
+    //         (a.minTime = n["data-min-time"].value.toString())),
+    //       n["data-max-time"] &&
+    //         ((a.enableTime = !0),
+    //         (a.noCalendar = !0),
+    //         (a.dateFormat = "H:i"),
+    //         (a.minTime = n["data-max-time"].value.toString())),
+    //       n["data-default-time"] &&
+    //         ((a.enableTime = !0),
+    //         (a.noCalendar = !0),
+    //         (a.dateFormat = "H:i"),
+    //         (a.defaultDate = n["data-default-time"].value.toString())),
+    //       n["data-time-inline"] &&
+    //         ((a.enableTime = !0),
+    //         (a.noCalendar = !0),
+    //         (a.defaultDate = n["data-time-inline"].value.toString()),
+    //         (a.inline = !0)),
+    //       flatpickr(e, a));
+    // }),
     Array.from(
       document.querySelectorAll('.dropdown-menu a[data-bs-toggle="tab"]')
     ).forEach(function (e) {
@@ -1789,13 +1789,13 @@
         e.stopPropagation(), bootstrap.Tab.getInstance(e.target).show();
       });
     }),
-    o(),
+    // o(),
     s(),
-    p(),
-    window.addEventListener("resize", function () {
-      q && clearTimeout(q), (q = setTimeout(W, 2e3));
-    });
-})();
+    p()
+    // window.addEventListener("resize", function () {
+    //   q && clearTimeout(q), (q = setTimeout(W, 2e3));
+    // });
+ })();
 var mybutton = document.getElementById("back-to-top");
 function scrollFunction() {
   100 < document.body.scrollTop || 100 < document.documentElement.scrollTop

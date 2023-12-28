@@ -4,9 +4,9 @@
   (document.writeln(
     "<script type='text/javascript' src='https://cdn.lordicon.com/gsqxdxog.json'></script>"
   ),
-  document.writeln(
-    "<script type='text/javascript' src='assets/libs/choices.js/public/assets/scripts/choices.min.js'></script>"
-  ),
+  // document.writeln(
+  //   "<script type='text/javascript' src='assets/libs/choices.js/public/assets/scripts/choices.min.js'></script>"
+  // ),
   document.writeln(
     "<script type='text/javascript' src='assets/libs/clockpicker/bootstrap-clockpicker.min.js'></script>"
   ),

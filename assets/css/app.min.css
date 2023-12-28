@@ -20,16 +20,14 @@
 @font-face {
   font-family: DM Sans, sans-serif;
   src: url(../fonts/hkgrotesk-medium.eot);
-  src: local("hkgrotesk medium"),
-    url(../fonts/hkgrotesk-medium.woff) format("woff");
+  src: local("hkgrotesk medium"),url(../fonts/hkgrotesk-medium.woff) format("woff");
   font-weight: 500;
 }
 
 @font-face {
   font-family: DM Sans, sans-serif;
   src: url(../fonts/hkgrotesk-semibold.eot);
-  src: local("hkgrotesk semibold"),
-    url(../fonts/hkgrotesk-semibold.woff) format("woff");
+  src: local("hkgrotesk semibold"), url(../fonts/hkgrotesk-semibold.woff) format("woff");
   font-weight: 600;
 }
 
@@ -237,11 +235,7 @@
   top: 4px !important;
 }
 
-@media (min-width: 768px) {
-  /* .topbar-user {
-    background-color: var(--vz-topbar-user-bg);
-  } */
-}
+
 
 .topbar-user .dropdown-menu {
   top: 6px !important;
@@ -839,7 +833,7 @@
   margin: 0;
 }
 
-:is([data-layout="vertical"], [data-layout="semibox"]) .app-menu .row>* {
+:is([data-layout="vertical"], [data-layout="semibox"]) .app-menu .row > * {
   width: 100%;
   padding: 0;
 }
@@ -893,13 +887,13 @@
   display: inline-block;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   :is([data-layout="vertical"],
     [data-layout="semibox"])[data-sidebar-size="sm-hover"]
-  /* .topnav-hamburger {
+   .topnav-hamburger {
     display: none;
-  } */
-}
+  } 
+} */
 
 :is([data-layout="vertical"],
   [data-layout="semibox"])[data-sidebar-size="sm-hover"] .navbar-menu {
@@ -963,9 +957,9 @@
   margin-right: 0;
 }
 
-:is([data-layout="vertical"],
+/* :is([data-layout="vertical"],
   [data-layout="semibox"])[data-sidebar-size="sm-hover"] .navbar-menu .navbar-nav .nav-link:after,
-/* :is(
+:is(
     [data-layout="vertical"],
     [data-layout="semibox"]
   )[data-sidebar-size="sm-hover"]
@@ -1191,7 +1185,7 @@
 
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover>a.menu-link {
   position: relative;
-  width: calc(120px + var(--vz-vertical-menu-width-sm));
+  width: calc(180px + var(--vz-vertical-menu-width-sm));
   -webkit-transition: none;
   transition: none;
   background: var(--vz-vertical-menu-bg);
@@ -1203,7 +1197,7 @@
 
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover>a.menu-link span {
   display: inline-block;
-  padding-left: 24px;
+  padding-left: 55px;
 }
 
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover>a.menu-link:after {
@@ -1219,9 +1213,9 @@
 
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover>.menu-dropdown {
   display: block;
-  left: var(--vz-vertical-menu-width-sm);
+  left: 70px;
   position: absolute;
-  width: auto;
+  width: 180px;
   background: var(--vz-vertical-menu-bg);
   height: auto !important;
   padding: 0.5rem 0;
@@ -1229,6 +1223,7 @@
   -webkit-box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
   box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
   top: 36px;
+  border: 0;
 }
 
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-sm {
@@ -1447,7 +1442,22 @@
     display: inline-block;
   }
 }
-
+.offcanvas.offcanvas-end {
+  width: 80vw;
+}
+.offcanvas-body {
+  /* -webkit-box-flex: 1; */
+  -ms-flex-positive: 1;
+  display: flex;
+  padding: var(--vz-offcanvas-padding-y) var(--vz-offcanvas-padding-x);
+  overflow-y: auto;
+  flex-wrap: wrap;
+  gap: 18px 20px;
+}
+.offcanvas-body .mb-4 {
+  margin-bottom: 0 !important;
+  flex-grow: inherit;
+}
 .menu-title {
   letter-spacing: 0.05em;
   cursor: default;
@@ -5267,9 +5277,44 @@ strong {
   line-height: 15px;
   font-family: "Material Design Icons" !important;
 }
-
-.badge {
-  line-height: 0.95;
+.badge{
+  line-height: 0.95 !important;
+  /* border-radius: 14px !important;
+  background: #50BD82 !important;
+  height: 28px !important;
+  width: 91px !important; */
+}
+.badge-new {
+  line-height: 0.95 !important;
+  border-radius: 14px !important;
+  background: #50BD82 !important;
+  height: 28px !important;
+  width: 91px !important;
+}
+.badges {
+  line-height: 0.95 !important;
+  border-radius: 14px !important;
+  background: #EDBD48 !important;
+  height: 28px !important;
+  width: 91px !important;
+}
+.badges-new {
+  line-height: 0.95 !important;
+  border-radius: 14px !important;; 
+  background: #0047FF !important;
+  height: 28px !important;
+  width: 111px !important;
+}
+.badges-fail {
+  line-height: 0.95 !important;
+  border-radius: 14px!important;
+  background: #EC564D!important;
+  height: 28px !important;
+  width: 91px !important;;
+}
+.fail-check{
+  position: absolute !important;
+  left: 25% !important;
 }
 
 .badge-label.bg-primary:before {
@@ -6045,9 +6090,28 @@ button {
   box-shadow: 0 1px 2px rgba(56, 65, 74, 0.15);
 }
 
-.card-header {
+/* .card-header {
   border-bottom: 1px solid var(--vz-border-color);
+} */
+.verticalScroll{
+  padding-bottom: 20px;
 }
+.verticalScroll .card-body {
+  overflow-y: auto;
+}
+
+.verticalScroll::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.verticalScroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+
 
 .card-header-dropdown .dropdown-btn {
   padding: 1rem 0;
@@ -7271,7 +7335,7 @@ button {
 
 .progress-nav .nav .nav-link.active,
 .progress-nav .nav .nav-link.done {
-  background-color: #7a8dad !important;
+  background-color: blue !important;
   color: #fff;
 }
 
@@ -7608,6 +7672,9 @@ button {
 
 .modal-dialog:not(.modal-dialog-scrollable) .modal-header .btn-close {
   margin-top: -1.25rem 1.25rem;
+  position: relative;
+  z-index: 999;  
+  cursor: pointer;
 }
 
 .modal-dialog:not(.modal-dialog-scrollable) .modal-footer {
@@ -17562,7 +17629,7 @@ span.flatpickr-weekday {
 .message-list li {
   position: relative;
   display: block;
-  height: 50px;
+  height: 85px;
   line-height: 50px;
   cursor: default;
   -webkit-transition-duration: 0.3s;
@@ -17678,10 +17745,54 @@ span.flatpickr-weekday {
 
 .message-list li .col-mail-2 .Outreach {
   position: absolute;
-  right: 250px;
+  /* right: 250px; */
   width: 100px;
   padding-left: 20px;
   top: 0px;
+}
+.Unassigned {
+  position: absolute !important;
+  right: 50px !important;
+  width: 100px !important;
+  padding-left: 219px !important;
+  top: 10px !important;
+}
+.Outreach {
+  position: absolute !important;
+  right: 250px !important;
+  width: 100px !important;
+  padding-left: 20px !important;
+  top: 20px !important;
+}
+.Outreachs {
+  position: absolute !important;
+  left: 20% !important;
+  width: 100px !important;
+  padding-left: 20px !important;
+  top: -40px !important;
+  /* bottom: 10px !important; */
+  /* margin-bottom: 100px !important; */
+}
+.Outreach-Info {
+  position: absolute !important;
+  right: 250px !important;
+  width: 100px !important;
+  padding-left: 20px !important;
+  top: 320px !important;
+}
+.Payments {
+  position: absolute !important;
+  right: 210px !important;
+  padding-left: 20px !important;
+  top: 120px !important;
+ 
+}
+.Support {
+  position: absolute !important;
+  right: 210px !important;
+  padding-left: 20px !important;
+  top: 220px !important;
+ 
 }
 
 .message-list li.active,
@@ -18739,7 +18850,6 @@ span.flatpickr-weekday {
 }
 
 .nav-item:last-child .menu-dropdown,
-
 :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:last-child>.menu-dropdown {
   top: -223px;
 }
@@ -18836,4 +18946,29 @@ button#topnav-hamburger-icon {
     font-size: 14px !important;
     line-height: 120%;
   }
+}
+.curserE1, .curserE2{
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.card-body::-webkit-scrollbar-track,
+.table-responsive::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.card-body::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar
+{
+	width: 2px;
+	background-color: #F5F5F5;
+}
+
+.card-body::-webkit-scrollbar-thumb,
+.table-responsive::-webkit-scrollbar-thumb
+{
+	background-color: #a1a1a1;
+	border: 1px solid #a1a1a1;
 }
